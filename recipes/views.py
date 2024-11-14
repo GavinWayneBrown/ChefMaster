@@ -2,8 +2,10 @@ from django.shortcuts import render, redirect
 from .forms import RecipeForm, InstructionFormSet, IngredientFormSet
 from django.views.generic import TemplateView
 
+
 class HomePageView(TemplateView):
     template_name = "home.html"
+
 
 def create_recipe(request):
     if request.method == "POST":
@@ -34,7 +36,7 @@ def create_recipe(request):
 
     return render(
         request,
-        "create_recipe.html",
+        "recipe/create_recipe.html",
         {
             "recipe_form": recipe_form,
             "instruction_formset": instruction_formset,
