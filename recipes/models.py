@@ -3,6 +3,7 @@ from django.db import models
 
 # Create your models here.
 class Recipe(models.Model):
+    title = models.CharField(max_length=100, default="Untitled Recipe")
     summary = models.CharField(max_length=500)
     prep_time = models.DurationField()
     cook_time = models.DurationField()
@@ -11,7 +12,7 @@ class Recipe(models.Model):
     ingredients = models.TextField()
 
     def __str__(self):
-        return self.summary
+        return self.title
 
 
 class Instruction(models.Model):
