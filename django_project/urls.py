@@ -21,9 +21,6 @@ from debug_toolbar.toolbar import debug_toolbar_urls
 
 urlpatterns = [
     path("admin/", admin.site.urls),
+    path("chefs/", include("django.contrib.auth.urls")),
 ]+ debug_toolbar_urls()
 
-if not settings.TESTING:
-    urlpatterns = [
-        *urlpatterns,
-    ] + debug_toolbar_urls()
