@@ -27,7 +27,7 @@ def create_recipe(request):
                 ingredient.recipe = recipe
                 ingredient.save()
             return redirect(
-                "recipe_list"
+                "home"
             )  # Redirect to a list of recipes or another appropriate view
     else:
         recipe_form = RecipeForm()
