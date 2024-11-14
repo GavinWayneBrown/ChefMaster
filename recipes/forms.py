@@ -14,6 +14,11 @@ class RecipeForm(forms.ModelForm):
             "total_time",
             "servings",
         ]
+        widgets = {
+            'prep_time': forms.TextInput(attrs={'type': 'text', 'placeholder': 'HH:MM'}),
+            'cook_time': forms.TextInput(attrs={'type': 'text', 'placeholder': 'HH:MM'}),
+            'total_time': forms.TextInput(attrs={'type': 'text', 'placeholder': 'HH:MM'}),
+        }
 
 
 class InstructionForm(forms.ModelForm):
