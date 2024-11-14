@@ -9,7 +9,6 @@ class Recipe(models.Model):
     cook_time = models.DurationField()
     total_time = models.DurationField()
     servings = models.IntegerField()
-    ingredients = models.TextField()
 
     def __str__(self):
         return self.title
