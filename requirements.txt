@@ -6,7 +6,9 @@ certifi==2024.8.30
 click==8.1.7
 click-plugins==1.1.1
 cligj==0.7.2
+crispy-bootstrap4==2024.10
 Django==5.0.9
+django-crispy-forms==2.3
 django-debug-toolbar==4.4.6
 joblib==1.4.2
 mypy-extensions==1.0.0
