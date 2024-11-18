@@ -1,9 +1,14 @@
 from django import forms
 from .models import Recipe, Instruction, Ingredient
 from django.forms import inlineformset_factory
+from .fields import CustomDurationField
 
 
 class RecipeForm(forms.ModelForm):
+    prep_time = CustomDurationField(widget=forms.TextInput(attrs={'placeholder': 'HH:MM'}))
+    cook_time = CustomDurationField(widget=forms.TextInput(attrs={'placeholder': 'HH:MM'}))
+    total_time = CustomDurationField(widget=forms.TextInput(attrs={'placeholder': 'HH:MM'}))
+
     class Meta:
         model = Recipe
         fields = [
@@ -14,11 +19,7 @@ class RecipeForm(forms.ModelForm):
             "total_time",
             "servings",
         ]
-        widgets = {
-            'prep_time': forms.TextInput(attrs={'type': 'text', 'placeholder': 'HH:MM'}),
-            'cook_time': forms.TextInput(attrs={'type': 'text', 'placeholder': 'HH:MM'}),
-            'total_time': forms.TextInput(attrs={'type': 'text', 'placeholder': 'HH:MM'}),
-        }
+        
 
 
 class InstructionForm(forms.ModelForm):

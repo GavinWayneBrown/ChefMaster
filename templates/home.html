@@ -1,7 +1,18 @@
-{%extends "base.html"%}
+<!-- templates/home.html -->
 
-{%block title%}Home{%endblock title%}
-
-{%block content%}
-
-{%endblock content%}
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Home{% endblock title %}
+{% block content %}
+    {% for recipe in recipe_list %} 
+    
+        <div class="card">
+            <div class="card-header"> <span class="fw-bold">
+                <a href="#">{{ recipe.title }}</a> </span> &middot;
+                <span class="text-muted"> prep time: {{ recipe.total_time}} | {{ recipe.date }}</span> 
+            </div>
+            <div class="card-body"> {{ recipe.summary }}
+        </div>
+        <br/>
+    {% endfor %}
+{% endblock content %}

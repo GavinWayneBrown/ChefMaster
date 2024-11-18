@@ -1,10 +1,16 @@
 from django.shortcuts import render, redirect
 from .forms import RecipeForm, InstructionFormSet, IngredientFormSet
 from django.views.generic import TemplateView
+from .models import Recipe
 
 
 class HomePageView(TemplateView):
-    template_name = "home.html"
+    template_name = "test-home.html"
+    
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context["recipe_list"] = Recipe.objects.all()
+        return context
 
 
 def create_recipe(request):

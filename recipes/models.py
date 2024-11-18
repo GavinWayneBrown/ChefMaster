@@ -4,6 +4,7 @@ from django.db import models
 # Create your models here.
 class Recipe(models.Model):
     title = models.CharField(max_length=100, default="Untitled Recipe")
+    date = models.DateTimeField(auto_now_add = True)
     summary = models.CharField(max_length=500)
     prep_time = models.DurationField()
     cook_time = models.DurationField()
@@ -12,6 +13,7 @@ class Recipe(models.Model):
 
     def __str__(self):
         return self.title
+ 
 
 
 class Instruction(models.Model):
