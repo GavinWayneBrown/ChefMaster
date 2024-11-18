@@ -1,9 +1,17 @@
 from django.shortcuts import render, redirect
 from .forms import RecipeForm, InstructionFormSet, IngredientFormSet
 from django.views.generic import TemplateView
+from .models import Recipe
+
 
 class HomePageView(TemplateView):
-    template_name = "home.html"
+    template_name = "test-home.html"
+    
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context["recipe_list"] = Recipe.objects.all()
+        return context
+
 
 def create_recipe(request):
     if request.method == "POST":
@@ -25,7 +33,7 @@ def create_recipe(request):
                 ingredient.recipe = recipe
                 ingredient.save()
             return redirect(
-                "recipe_list"
+                "home"
             )  # Redirect to a list of recipes or another appropriate view
     else:
         recipe_form = RecipeForm()
@@ -34,7 +42,7 @@ def create_recipe(request):
 
     return render(
         request,
-        "create_recipe.html",
+        "recipe/create_recipe.html",
         {
             "recipe_form": recipe_form,
             "instruction_formset": instruction_formset,

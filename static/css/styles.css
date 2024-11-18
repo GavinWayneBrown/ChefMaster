@@ -94,6 +94,14 @@
   background-color: #fffacd  !important; /* Pale yellow color */
 }
 
+.navbar-title {
+  font-family: 'Luckiest Guy', sans-serif;
+  font-weight: 10; /* Adjust as needed */
+  color: white; /* Adjust as needed */
+  font-size: 1.5rem; /* Increase font size */
+  text-decoration: none; /* Remove underline */
+}
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
