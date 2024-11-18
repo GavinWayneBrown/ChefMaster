@@ -10,5 +10,5 @@ class CustomUser(AbstractUser):
         ('CM', 'Chef Master'),
     ]
     experience = models.CharField(max_length=2, choices=EXPERIENCE_LEVEL, default='CB')
-    bio = models.CharField(max_length=400)
+    bio = models.TextField(max_length=400)
     favoriteCuisine = models.CharField(max_length=50)
