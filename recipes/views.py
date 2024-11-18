@@ -1,10 +1,17 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from .forms import RecipeForm, InstructionFormSet, IngredientFormSet
 from django.views.generic import TemplateView
+from .models import Recipe, Instruction, Ingredient
+from django.views import View
 
 
 class HomePageView(TemplateView):
-    template_name = "home.html"
+    template_name = "test-home.html"
+    
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context["recipe_list"] = Recipe.objects.all()
+        return context
 
 
 def create_recipe(request):
@@ -43,3 +50,14 @@ def create_recipe(request):
             "ingredient_formset": ingredient_formset,
         },
     )
+
+class RecipeDetailView(View):
+    def get(self, request, pk):
+        recipe = get_object_or_404(Recipe, pk=pk)
+        instructions = Instruction.objects.filter(recipe=recipe)
+        ingredients = Ingredient.objects.filter(recipe=recipe)
+        return render(request, 'recipe/recipe_detail.html', {
+            'recipe': recipe,
+            'instructions': instructions,
+            'ingredients': ingredients,
+        })

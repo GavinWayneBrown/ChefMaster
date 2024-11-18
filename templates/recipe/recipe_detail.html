@@ -1,0 +1,31 @@
+<!-- recipe_detail.html -->
+{% extends "base.html" %}
+{% load custom_filters %}
+
+{% block title %}Recipe Detail{% endblock title %}
+
+{% block content %}
+    <div class="container">
+        <h1>{{ recipe.title }}</h1>
+        <p><strong>Summary:</strong> {{ recipe.summary }}</p>
+        <p><strong>Preparation Time:</strong> {{ recipe.prep_time|human_readable_duration }}</p>
+        <p><strong>Cooking Time:</strong> {{ recipe.cook_time|human_readable_duration }}</p>
+        <p><strong>Total Time:</strong> {{ recipe.total_time|human_readable_duration }}</p>
+        <p><strong>Servings:</strong> {{ recipe.servings }}</p>
+        <p><strong>Date:</strong> {{ recipe.date }}</p>
+
+        <h2>Instructions</h2>
+        <ol>
+            {% for instruction in instructions %}
+                <li>{{ instruction.step }}</li>
+            {% endfor %}
+        </ol>
+
+        <h2>Ingredients</h2>
+        <ul>
+            {% for ingredient in ingredients %}
+                <li>{{ ingredient.quantity }} {{ ingredient.item }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+{% endblock %}
