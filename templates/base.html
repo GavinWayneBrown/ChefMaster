@@ -27,14 +27,14 @@
                           <li><a class="dropdown-item" href="{% url 'password_change' %}">Change password</a></li>
                           <li><hr class="dropdown-divider" /></li>
                           <li>
-                              <form method="post" action="#" style="display:inline;">
+                              <form method="post" action="{% url 'logout' %}" style="display:inline;">
                                   {% csrf_token %}
                                   <button type="submit" class="btn btn-link nav-link" style="display:inline; cursor:pointer;">Logout</button>
                               </form>
                           </li>
                       </ul>
                     {% else %}
-                  <li class="nav-item"><a class="nav-link" href="#">Log in</a></li>
+                  <li class="nav-item"><a class="nav-link" href="{% url 'login' %}">Log in</a></li>
                   <li class="nav-item"><a class="nav-link" href="#">Sign up</a></li>
                   {% endif %}
               </ul>

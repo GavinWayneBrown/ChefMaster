@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     # local apps
     "recipes",
+    "chefs",
+
 ]
 
 MIDDLEWARE = [
@@ -60,11 +62,7 @@ ROOT_URLCONF = "django_project.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-<<<<<<< HEAD
-        "DIRS": [BASE_DIR / "templates"],
-=======
         "DIRS": [BASE_DIR / "templates" ],
->>>>>>> 1c8477849a95d5c09697f5ccb66a318f3b13e664
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -113,8 +111,6 @@ INTERNAL_IPS = [
     "127.0.0.1",
 ]
 
-<<<<<<< HEAD
-=======
 TESTING = "test" in sys.argv
 
 if not TESTING:
@@ -123,9 +119,9 @@ if not TESTING:
         "debug_toolbar",
     ]
 
->>>>>>> 1c8477849a95d5c09697f5ccb66a318f3b13e664
 
 LOGIN_REDIRECT_URL = "home"  
+LOGOUT_REDIRECT_URL = "home" 
 
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
@@ -148,3 +144,4 @@ STATIC_URL = "static/"
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+AUTH_USER_MODEL = "chefs.CustomUser"
