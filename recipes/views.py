@@ -1,5 +1,6 @@
 from django.shortcuts import render, redirect, get_object_or_404
-from .forms import RecipeForm, InstructionFormSet, IngredientFormSet
+from .forms import RecipeForm, InstructionForm, IngredientForm
+from django.forms import modelformset_factory
 from django.views.generic import TemplateView
 from .models import Recipe, Instruction, Ingredient
 from django.views import View
@@ -7,7 +8,7 @@ from django.views import View
 
 class HomePageView(TemplateView):
     template_name = "test-home.html"
-    
+
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context["recipe_list"] = Recipe.objects.all()
@@ -15,31 +16,39 @@ class HomePageView(TemplateView):
 
 
 def create_recipe(request):
+    InstructionFormSet = modelformset_factory(
+        Instruction, form=InstructionForm, extra=1
+    )
+    IngredientFormSet = modelformset_factory(Ingredient, form=IngredientForm, extra=1)
+
     if request.method == "POST":
         recipe_form = RecipeForm(request.POST)
-        instruction_formset = InstructionFormSet(request.POST)
-        ingredient_formset = IngredientFormSet(request.POST)
+        instruction_formset = InstructionFormSet(
+            request.POST, queryset=Instruction.objects.none()
+        )
+        ingredient_formset = IngredientFormSet(
+            request.POST, queryset=Ingredient.objects.none()
+        )
+
         if (
             recipe_form.is_valid()
             and instruction_formset.is_valid()
             and ingredient_formset.is_valid()
         ):
             recipe = recipe_form.save()
-            instructions = instruction_formset.save(commit=False)
-            for instruction in instructions:
+            for form in instruction_formset:
+                instruction = form.save(commit=False)
                 instruction.recipe = recipe
                 instruction.save()
-            ingredients = ingredient_formset.save(commit=False)
-            for ingredient in ingredients:
+            for form in ingredient_formset:
+                ingredient = form.save(commit=False)
                 ingredient.recipe = recipe
                 ingredient.save()
-            return redirect(
-                "home"
-            )  # Redirect to a list of recipes or another appropriate view
+            return redirect("recipe_detail", pk=recipe.pk)
     else:
         recipe_form = RecipeForm()
-        instruction_formset = InstructionFormSet()
-        ingredient_formset = IngredientFormSet()
+        instruction_formset = InstructionFormSet(queryset=Instruction.objects.none())
+        ingredient_formset = IngredientFormSet(queryset=Ingredient.objects.none())
 
     return render(
         request,
@@ -51,13 +60,18 @@ def create_recipe(request):
         },
     )
 
+
 class RecipeDetailView(View):
     def get(self, request, pk):
         recipe = get_object_or_404(Recipe, pk=pk)
         instructions = Instruction.objects.filter(recipe=recipe)
         ingredients = Ingredient.objects.filter(recipe=recipe)
-        return render(request, 'recipe/recipe_detail.html', {
-            'recipe': recipe,
-            'instructions': instructions,
-            'ingredients': ingredients,
-        })
+        return render(
+            request,
+            "recipe/recipe_detail.html",
+            {
+                "recipe": recipe,
+                "instructions": instructions,
+                "ingredients": ingredients,
+            },
+        )
