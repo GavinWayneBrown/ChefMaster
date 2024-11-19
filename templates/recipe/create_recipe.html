@@ -38,7 +38,11 @@
             var formIdx = document.querySelectorAll('.instruction-form').length;
             var newForm = document.querySelector('.instruction-form').cloneNode(true);
             newForm.innerHTML = newForm.innerHTML.replace(/__prefix__/g, formIdx);
-            newForm.querySelector('label').innerText = 'Step ' + (formIdx + 1);
+            newForm.querySelectorAll('input, textarea').forEach(function(input) {
+                input.name = input.name.replace(/-\d+-/, '-' + formIdx + '-');
+                input.id = input.id.replace(/_\d+_/, '_' + formIdx + '_');
+                input.value = '';  // Clear the value of the cloned input
+            });
             document.getElementById('instructions').appendChild(newForm);
         });
 
@@ -46,6 +50,11 @@
             var formIdx = document.querySelectorAll('.ingredient-form').length;
             var newForm = document.querySelector('.ingredient-form').cloneNode(true);
             newForm.innerHTML = newForm.innerHTML.replace(/__prefix__/g, formIdx);
+            newForm.querySelectorAll('input').forEach(function(input) {
+                input.name = input.name.replace(/-\d+-/, '-' + formIdx + '-');
+                input.id = input.id.replace(/_\d+_/, '_' + formIdx + '_');
+                input.value = '';  // Clear the value of the cloned input
+            });
             document.getElementById('ingredients').appendChild(newForm);
         });
     </script>

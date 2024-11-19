@@ -1,6 +1,8 @@
 from django.test import TestCase
 from .models import Recipe, Instruction, Ingredient
 from datetime import timedelta
+from django.urls import reverse
+
 
 class RecipeModelTest(TestCase):
 
@@ -12,25 +14,19 @@ class RecipeModelTest(TestCase):
             prep_time=timedelta(minutes=10),
             cook_time=timedelta(minutes=20),
             total_time=timedelta(minutes=30),
-            servings=4
+            servings=4,
         )
         self.ingredient1 = Ingredient.objects.create(
-            recipe=self.recipe,
-            item="Test Ingredient 1",
-            quantity="1 cup"
+            recipe=self.recipe, item="Test Ingredient 1", quantity="1 cup"
         )
         self.ingredient2 = Ingredient.objects.create(
-            recipe=self.recipe,
-            item="Test Ingredient 2",
-            quantity="2 cups"
+            recipe=self.recipe, item="Test Ingredient 2", quantity="2 cups"
         )
         self.instruction1 = Instruction.objects.create(
-            recipe=self.recipe,
-            step="Test instruction 1"
+            recipe=self.recipe, step="Test instruction 1"
         )
         self.instruction2 = Instruction.objects.create(
-            recipe=self.recipe,
-            step="Test instruction 2"
+            recipe=self.recipe, step="Test instruction 2"
         )
 
     def test_recipe_creation(self):
@@ -54,3 +50,39 @@ class RecipeModelTest(TestCase):
         self.assertEqual(instructions.count(), 2)
         self.assertEqual(instructions[0].step, "Test instruction 1")
         self.assertEqual(instructions[1].step, "Test instruction 2")
+
+
+class RecipeDetailViewTest(TestCase):
+
+    def setUp(self):
+        # Create sample data for testing
+        self.recipe = Recipe.objects.create(
+            title="Test Recipe",
+            summary="This is a test recipe",
+            prep_time=timedelta(minutes=10),
+            cook_time=timedelta(minutes=20),
+            total_time=timedelta(minutes=30),
+            servings=4,
+        )
+        self.ingredient1 = Ingredient.objects.create(
+            recipe=self.recipe, item="Test Ingredient 1", quantity="1 cup"
+        )
+        self.ingredient2 = Ingredient.objects.create(
+            recipe=self.recipe, item="Test Ingredient 2", quantity="2 cups"
+        )
+        self.instruction1 = Instruction.objects.create(
+            recipe=self.recipe, step="Test instruction 1"
+        )
+        self.instruction2 = Instruction.objects.create(
+            recipe=self.recipe, step="Test instruction 2"
+        )
+
+    def test_recipe_detail_view(self):
+        response = self.client.get(reverse("recipe_detail", args=[self.recipe.pk]))
+        self.assertEqual(response.status_code, 200)
+        self.assertContains(response, "Test Recipe")
+        self.assertContains(response, "This is a test recipe")
+        self.assertContains(response, "Test instruction 1")
+        self.assertContains(response, "Test instruction 2")
+        self.assertContains(response, "Test Ingredient 1")
+        self.assertContains(response, "Test Ingredient 2")
