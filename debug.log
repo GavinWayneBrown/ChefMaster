@@ -1,0 +1,66 @@
+Watching for file changes with StatReloader
+Recipe Form Valid: True
+Instruction Formset Valid: True
+Total Instruction Forms: 1
+Instruction Form 0 Cleaned Data: {'step': 'step 1', 'id': None, 'DELETE': False, 'recipe': <Recipe: Untitled Recipe>}
+Saved Instruction 0: step 1
+/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/recipes/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/recipes/models.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/recipes/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /js/scripts.js
+Total Instructions for Recipe 19: 1
+Instruction order: 1, step: step 1
+Total Instructions for Recipe 18: 1
+Instruction order: 1, step: step 1
+Total Instructions for Recipe 17: 1
+Instruction order: 1, step: step 1
+Total Instructions for Recipe 16: 1
+Instruction order: 0, step: step 1
+Recipe Form Valid: True
+Instruction Formset Valid: True
+Total Instruction Forms: 1
+Instruction Form 0 Cleaned Data: {'step': 'step 1', 'id': None, 'DELETE': False, 'recipe': <Recipe: Untitled Recipe>}
+Saved Instruction 0: step 1
+Total Instructions for Recipe 20: 1
+Instruction order: 1, step: step 1
+/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/recipes/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/recipes/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/recipes/views.py changed, reloading.
+Watching for file changes with StatReloader
+Total Form Count: 1
+Total Instructions for Recipe 21: 1
+Instruction order: 1, step: step 1
+Total Form Count: 3
+Total Instructions for Recipe 22: 3
+Instruction order: 1, step: this is a step
+Instruction order: 2, step: second step over here
+Instruction order: 3, step: yep steps be happening
+Not Found: /js/scripts.js
+Not Found: /js/scripts.js
+Watching for file changes with StatReloader
+Not Found: /js/scripts.js
+Total Instructions for Recipe 17: 1
+Instruction order: 1, step: step 1
+Not Found: /js/scripts.js
+Total Instructions for Recipe 16: 1
+Instruction order: 0, step: step 1
+Not Found: /js/scripts.js
+Total Instructions for Recipe 22: 3
+Instruction order: 1, step: this is a step
+Instruction order: 2, step: second step over here
+Instruction order: 3, step: yep steps be happening
+/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/recipes/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/recipes/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/recipes/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/recipes/forms.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /js/scripts.js

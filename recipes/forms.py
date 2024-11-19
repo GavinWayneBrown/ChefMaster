@@ -35,9 +35,11 @@ class IngredientForm(forms.ModelForm):
 
 
 # Inline formsets
+# In forms.py
 InstructionFormSet = inlineformset_factory(
-    Recipe, Instruction, form=InstructionForm, extra=1
+    Recipe, Instruction, form=InstructionForm, extra=3, can_delete=False
 )
+
 IngredientFormSet = inlineformset_factory(
-    Recipe, Ingredient, form=IngredientForm, extra=1
+    Recipe, Ingredient, form=IngredientForm, extra=3, can_delete=False
 )

@@ -24,11 +24,15 @@ class Recipe(models.Model):
 
 
 class Instruction(models.Model):
-    recipe = models.ForeignKey(Recipe, on_delete=models.CASCADE)
+    recipe = models.ForeignKey(Recipe, on_delete=models.CASCADE, related_name='instructions')
     step = models.TextField()
+    order = models.IntegerField(default=0)
+
+    class Meta:
+        ordering = ['order']
 
     def __str__(self):
-        return f"{self.recipe.summary} - {self.step}"
+        return f"Step for {self.recipe.title}: {self.step[:50]}"
 
 
 class Ingredient(models.Model):

@@ -15,11 +15,11 @@
                     <div class="row">
                         {% for recipe in recipe_list %}
                         <div class="col-lg-6">
-                            <div class="card mb-4 shrink-card">
+                            <div class="card mb-4 ">
                                 <a href="{{ recipe.get_absolute_url }}">
-                                    <img class="card-img-top shrink-card" src="{{ recipe.image_url|default:'https://dummyimage.com/700x350/dee2e6/6c757d.jpg' }}" alt="{{ recipe.title }}" />
+                                    <img class="card-img-top " src="{{ recipe.image_url|default:'https://dummyimage.com/700x350/dee2e6/6c757d.jpg' }}" alt="{{ recipe.title }}" />
                                 </a>
-                                <div class="card-body shrink-card">
+                                <div class="card-body ">
                                     <div class="small text-muted">{{ recipe.date }}</div>
                                     <h2 class="card-title h4">{{ recipe.title }}</h2>
                                     <p class="card-text">{{ recipe.summary }}</p>

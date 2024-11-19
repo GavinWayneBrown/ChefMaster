@@ -9,7 +9,9 @@
         {% csrf_token %}
         {{ recipe_form|crispy }}
         <h2>Instructions</h2>
+
         {{ instruction_formset.management_form|crispy }}
+        
         <div id="instructions">
             {% for form in instruction_formset %}
                 <div class="instruction-form">
@@ -35,27 +37,65 @@
 
     <script>
         document.getElementById('add-instruction').addEventListener('click', function() {
-            var formIdx = document.querySelectorAll('.instruction-form').length;
-            var newForm = document.querySelector('.instruction-form').cloneNode(true);
-            newForm.innerHTML = newForm.innerHTML.replace(/__prefix__/g, formIdx);
-            newForm.querySelectorAll('input, textarea').forEach(function(input) {
-                input.name = input.name.replace(/-\d+-/, '-' + formIdx + '-');
-                input.id = input.id.replace(/_\d+_/, '_' + formIdx + '_');
-                input.value = '';  // Clear the value of the cloned input
-            });
-            document.getElementById('instructions').appendChild(newForm);
-        });
+    // Get the total forms input
+    var totalFormsInput = document.querySelector('input[name$=TOTAL_FORMS]');
+    var formIdx = parseInt(totalFormsInput.value);
+    
+    // Get the template form
+    var template = document.querySelector('.instruction-form');
+    var newForm = template.cloneNode(true);
+    
+    // Replace prefix in the new form
+    newForm.innerHTML = newForm.innerHTML.replace(/__prefix__/g, formIdx);
+    
+    // Update input names and ids
+    newForm.querySelectorAll('input, textarea').forEach(function(input) {
+        // Update name attribute
+        input.setAttribute('name', input.getAttribute('name').replace(/-\d+-/, '-' + formIdx + '-'));
+        
+        // Update id attribute
+        input.setAttribute('id', input.getAttribute('id').replace(/_\d+_/, '_' + formIdx + '_'));
+        
+        // Clear the value
+        input.value = '';
+    });
+    
+    // Append the new form
+    document.getElementById('instructions').appendChild(newForm);
+    
+    // Increment the total forms count
+    totalFormsInput.value = formIdx + 1;
+});
 
-        document.getElementById('add-ingredient').addEventListener('click', function() {
-            var formIdx = document.querySelectorAll('.ingredient-form').length;
-            var newForm = document.querySelector('.ingredient-form').cloneNode(true);
-            newForm.innerHTML = newForm.innerHTML.replace(/__prefix__/g, formIdx);
-            newForm.querySelectorAll('input').forEach(function(input) {
-                input.name = input.name.replace(/-\d+-/, '-' + formIdx + '-');
-                input.id = input.id.replace(/_\d+_/, '_' + formIdx + '_');
-                input.value = '';  // Clear the value of the cloned input
-            });
-            document.getElementById('ingredients').appendChild(newForm);
-        });
+document.getElementById('add-ingredient').addEventListener('click', function() {
+    // Get the total forms input
+    var totalFormsInput = document.querySelector('input[name$=TOTAL_FORMS]');
+    var formIdx = parseInt(totalFormsInput.value);
+    
+    // Get the template form
+    var template = document.querySelector('.ingredient-form');
+    var newForm = template.cloneNode(true);
+    
+    // Replace prefix in the new form
+    newForm.innerHTML = newForm.innerHTML.replace(/__prefix__/g, formIdx);
+    
+    // Update input names and ids
+    newForm.querySelectorAll('input').forEach(function(input) {
+        // Update name attribute
+        input.setAttribute('name', input.getAttribute('name').replace(/-\d+-/, '-' + formIdx + '-'));
+        
+        // Update id attribute
+        input.setAttribute('id', input.getAttribute('id').replace(/_\d+_/, '_' + formIdx + '_'));
+        
+        // Clear the value
+        input.value = '';
+    });
+    
+    // Append the new form
+    document.getElementById('ingredients').appendChild(newForm);
+    
+    // Increment the total forms count
+    totalFormsInput.value = formIdx + 1;
+});
     </script>
 {% endblock content %}
