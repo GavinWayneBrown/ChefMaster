@@ -130,6 +130,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   line-height: 1.2;
 }
 
+
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
 }
@@ -7675,6 +7676,12 @@ textarea.form-control-lg {
 
 .mb-4 {
   margin-bottom: 1.5rem !important;
+}
+
+.shrink-card {
+  transform: scale(0.8); /* Scale down the entire card */
+  transform-origin: center; /* Scale relative to the center */
+  margin: 0 auto; /* Optional: Center alignment */
 }
 
 .mb-5 {

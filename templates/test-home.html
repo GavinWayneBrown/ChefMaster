@@ -12,26 +12,24 @@
             <div class="row">
                 <!-- Blog entries-->
                 <div class="col-lg-8">
-                    <!-- Featured blog post-->
-                    
-                    <!-- Nested row for non-featured blog posts-->
-             <div class="row">
-                    <div class="col-lg-6">
-                    {% for recipe in recipe_list %} 
-                    <div class="card mb-4">
-                        <a href="{{ recipe.get_absolute_url }}"><img class="card-img-top" src="https://dummyimage.com/700x350/dee2e6/6c757d.jpg" alt="..." /></a>
-                        <div class="card-body">
-                            <div class="small text-muted">Prep Time: {{ recipe.total_time}} | {{ recipe.date }}</div>
-                            <h2 class="card-title h4">{{recipe.title}}</h2>
-                            <p class="card-text">{{recipe.summary}}</p>
-                            <a class="btn btn-primary" href="{{ recipe.get_absolute_url }}">Read more →</a>
+                    <div class="row">
+                        {% for recipe in recipe_list %}
+                        <div class="col-lg-6">
+                            <div class="card mb-4 shrink-card">
+                                <a href="{{ recipe.get_absolute_url }}">
+                                    <img class="card-img-top shrink-card" src="{{ recipe.image_url|default:'https://dummyimage.com/700x350/dee2e6/6c757d.jpg' }}" alt="{{ recipe.title }}" />
+                                </a>
+                                <div class="card-body shrink-card">
+                                    <div class="small text-muted">{{ recipe.date }}</div>
+                                    <h2 class="card-title h4">{{ recipe.title }}</h2>
+                                    <p class="card-text">{{ recipe.summary }}</p>
+                                    <a class="btn btn-primary" href="{{ recipe.get_absolute_url }}">Read more →</a>
+                                </div>
+                            </div>
                         </div>
+                        {% endfor %}
                     </div>
-                 {% endfor %}
-                   
                 
-                        </div>
-                    </div>
                     <!-- Pagination-->
                     <nav aria-label="Pagination">
                         <hr class="my-0" />
@@ -65,14 +63,12 @@
                             <div class="row">
                                 <div class="col-sm-6">
                                     <ul class="list-unstyled mb-0">
-                                        <li><a href="#!">Spicy</a></li>
-                                        <li><a href="#!">Sweet</a></li>
-                                        <li><a href="#!">Sour</a></li>
+                                        <li><a href="#!">Vegan</a></li>
+                                        <li><a href="#!">Vegetarian</a></li>
                                     </ul>
                                 </div>
                                 <div class="col-sm-6">
                                     <ul class="list-unstyled mb-0">
-                                        <li><a href="#!">Savory</a></li>
                                         <li><a href="#!">Gluten Free</a></li>
                                         <li><a href="#!">Nut Free</a></li>
                                     </ul>
