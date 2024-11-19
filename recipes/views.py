@@ -4,6 +4,7 @@ from django.forms import modelformset_factory
 from django.views.generic import TemplateView
 from .models import Recipe, Instruction, Ingredient
 from django.views import View
+from django.contrib.auth.decorators import login_required
 
 
 class HomePageView(TemplateView):
@@ -15,6 +16,7 @@ class HomePageView(TemplateView):
         return context
 
 
+@login_required
 def create_recipe(request):
     InstructionFormSet = modelformset_factory(
         Instruction, form=InstructionForm, extra=1

@@ -1,7 +1,7 @@
 from django.test import TestCase
+from django.urls import reverse
 from .models import Recipe, Instruction, Ingredient
 from datetime import timedelta
-from django.urls import reverse
 
 
 class RecipeModelTest(TestCase):

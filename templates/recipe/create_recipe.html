@@ -9,18 +9,18 @@
         {% csrf_token %}
         {{ recipe_form|crispy }}
         <h2>Instructions</h2>
-        {{ instruction_formset.management_form |crispy}}
+        {{ instruction_formset.management_form|crispy }}
         <div id="instructions">
             {% for form in instruction_formset %}
                 <div class="instruction-form">
-                    {{ form|crispy}}
+                    {{ form|crispy }}
                 </div>
             {% endfor %}
         </div>
         <button type="button" id="add-instruction">Add Instruction</button>
 
         <h2>Ingredients</h2>
-        {{ ingredient_formset.management_form }}
+        {{ ingredient_formset.management_form|crispy }}
         <div id="ingredients">
             {% for form in ingredient_formset %}
                 <div class="ingredient-form">
