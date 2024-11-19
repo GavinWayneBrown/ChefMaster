@@ -5,6 +5,8 @@ from django.views.generic import TemplateView
 from .models import Recipe, Instruction, Ingredient
 from django.views import View
 from django.contrib.auth.decorators import login_required
+import logging
+logger = logging.getLogger(__name__)
 
 
 class HomePageView(TemplateView):

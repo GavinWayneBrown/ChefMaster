@@ -36,9 +36,9 @@ class Instruction(models.Model):
 
 
 class Ingredient(models.Model):
-    recipe = models.ForeignKey(Recipe, on_delete=models.CASCADE)
-    item = models.CharField(max_length=100)
+    recipe = models.ForeignKey(Recipe, on_delete=models.CASCADE, related_name='ingredients')
+    item = models.CharField(max_length=200)
     quantity = models.CharField(max_length=50)
 
     def __str__(self):
-        return f"{self.recipe.summary} - {self.quantity} {self.item}"
+        return f"{self.quantity} {self.item}"
