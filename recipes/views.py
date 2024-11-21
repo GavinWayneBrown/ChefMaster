@@ -1,10 +1,35 @@
 from django.shortcuts import render, redirect, get_object_or_404
+from .forms import (
+    RecipeForm,
+    InstructionForm,
+    IngredientForm,
+    InstructionFormSet,
+    IngredientFormSet,
+)
 from django.views.generic.edit import UpdateView, DeleteView
 from .forms import RecipeForm, InstructionForm, IngredientForm
 from django.forms import modelformset_factory
 from django.views.generic import TemplateView
-from .models import Recipe, Instruction, Ingredient
+from .models import Recipe, Instruction, Ingredient, Category
 from django.views import View
+from django.contrib.auth.decorators import login_required
+import logging
+
+logger = logging.getLogger(__name__)
+from django.core.paginator import Paginator
+from django.shortcuts import render
+
+def home(request):
+    recipe_list = Recipe.objects.all()  # Query your recipes
+    paginator = Paginator(recipe_list, 6)  # 6 posts per page
+
+    page_number = request.GET.get('page')
+    page_obj = paginator.get_page(page_number)
+
+    return render(request, 'test-home.html', {'page_obj': page_obj})
+
+
+@login_required
 from django.urls import reverse_lazy
 
 
@@ -28,13 +53,8 @@ class RecipeDeleteView(DeleteView):
 
 
 def create_recipe(request):
-    InstructionFormSet = modelformset_factory(
-        Instruction, form=InstructionForm, extra=1
-    )
-    IngredientFormSet = modelformset_factory(Ingredient, form=IngredientForm, extra=1)
-
     if request.method == "POST":
-        recipe_form = RecipeForm(request.POST)
+        recipe_form = RecipeForm(request.POST, request.FILES)
         instruction_formset = InstructionFormSet(
             request.POST, queryset=Instruction.objects.none()
         )
@@ -47,15 +67,23 @@ def create_recipe(request):
             and instruction_formset.is_valid()
             and ingredient_formset.is_valid()
         ):
-            recipe = recipe_form.save()
-            for form in instruction_formset:
-                instruction = form.save(commit=False)
+            recipe = recipe_form.save(commit=False)
+            recipe.author = request.user
+            recipe.save()
+
+            # Save instructions
+            instructions = instruction_formset.save(commit=False)
+            for i, instruction in enumerate(instructions):
                 instruction.recipe = recipe
+                instruction.order = i + 1
                 instruction.save()
-            for form in ingredient_formset:
-                ingredient = form.save(commit=False)
+
+            # Save ingredients
+            ingredients = ingredient_formset.save(commit=False)
+            for ingredient in ingredients:
                 ingredient.recipe = recipe
                 ingredient.save()
+
             return redirect("recipe_detail", pk=recipe.pk)
     else:
         recipe_form = RecipeForm()
@@ -73,17 +101,13 @@ def create_recipe(request):
     )
 
 
-class RecipeDetailView(View):
-    def get(self, request, pk):
-        recipe = get_object_or_404(Recipe, pk=pk)
-        instructions = Instruction.objects.filter(recipe=recipe)
-        ingredients = Ingredient.objects.filter(recipe=recipe)
-        return render(
-            request,
-            "recipe/recipe_detail.html",
-            {
-                "recipe": recipe,
-                "instructions": instructions,
-                "ingredients": ingredients,
-            },
-        )
+def recipe_detail(request, pk):
+    recipe = get_object_or_404(Recipe, pk=pk)
+    instructions = Instruction.objects.filter(recipe=recipe).order_by("order")
+    ingredients = Ingredient.objects.filter(recipe=recipe)
+
+    return render(
+        request,
+        "recipe/recipe_detail.html",
+        {"recipe": recipe, "instructions": instructions, "ingredients": ingredients},
+    )
