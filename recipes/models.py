@@ -18,6 +18,7 @@ class Recipe(models.Model):
     cook_time = models.DurationField()
     total_time = models.DurationField()
     servings = models.IntegerField()
+    categories = models.ManyToManyField("Category", blank=True)
 
     def __str__(self):
         return self.title
@@ -27,21 +28,32 @@ class Recipe(models.Model):
 
 
 class Instruction(models.Model):
-    recipe = models.ForeignKey(Recipe, on_delete=models.CASCADE, related_name='instructions')
+    recipe = models.ForeignKey(
+        Recipe, on_delete=models.CASCADE, related_name="instructions"
+    )
     step = models.TextField()
     order = models.IntegerField(default=0)
 
     class Meta:
-        ordering = ['order']
+        ordering = ["order"]
 
     def __str__(self):
         return f"Step for {self.recipe.title}: {self.step[:50]}"
 
 
 class Ingredient(models.Model):
-    recipe = models.ForeignKey(Recipe, on_delete=models.CASCADE, related_name='ingredients')
+    recipe = models.ForeignKey(
+        Recipe, on_delete=models.CASCADE, related_name="ingredients"
+    )
     item = models.CharField(max_length=200)
     quantity = models.CharField(max_length=50)
 
     def __str__(self):
         return f"{self.quantity} {self.item}"
+
+
+class Category(models.Model):
+    name = models.CharField(max_length=50)
+
+    def __str__(self):
+        return self.name
