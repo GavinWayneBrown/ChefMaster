@@ -17,7 +17,11 @@
                             <!-- Post meta content-->
                             <div class="text-muted fst-italic mb-2">Posted on {{ recipe.date }} by {{recipe.author}}. </div>
                             <!-- Post categories-->
-                            <a class="badge bg-secondary text-decoration-none link-light" href="#!">Here are where tags will go</a>
+                            <div>
+                                {% for category in recipe.categories.all %}
+                                    <a class="badge bg-secondary text-decoration-none link-light" href="#">{{ category.name }}</a>
+                                {% endfor %}
+                            </div>
                         </header>
                         <!-- Preview image figure-->
                         {% load thumbnail %}
