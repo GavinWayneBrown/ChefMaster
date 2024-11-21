@@ -14,15 +14,17 @@ from django.contrib.auth.decorators import login_required
 import logging
 
 logger = logging.getLogger(__name__)
+from django.core.paginator import Paginator
+from django.shortcuts import render
 
+def home(request):
+    recipe_list = Recipe.objects.all()  # Query your recipes
+    paginator = Paginator(recipe_list, 6)  # 6 posts per page
 
-class HomePageView(TemplateView):
-    template_name = "test-home.html"
+    page_number = request.GET.get('page')
+    page_obj = paginator.get_page(page_number)
 
-    def get_context_data(self, **kwargs):
-        context = super().get_context_data(**kwargs)
-        context["recipe_list"] = Recipe.objects.all()
-        return context
+    return render(request, 'test-home.html', {'page_obj': page_obj})
 
 
 @login_required
