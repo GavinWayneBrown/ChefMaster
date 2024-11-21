@@ -1,10 +1,13 @@
 from django.db import models
 from django.urls import reverse
 from django.conf import settings
+from sorl.thumbnail import ImageField
+
 
 
 # Create your models here.
 class Recipe(models.Model):
+    image = ImageField(upload_to='recipes/')
     title = models.CharField(max_length=100, default="Untitled Recipe")
     date = models.DateTimeField(auto_now_add=True)
     author = models.ForeignKey(
