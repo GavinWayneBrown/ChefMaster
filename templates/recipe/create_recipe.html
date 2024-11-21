@@ -3,7 +3,7 @@
 {% block content %}
 <h1>Create a New Recipe</h1>
 {% load crispy_forms_tags %}
-<form method="post">
+<form method="post" enctype="multipart/form-data">
     {% csrf_token %}
     {{ recipe_form|crispy }}
     

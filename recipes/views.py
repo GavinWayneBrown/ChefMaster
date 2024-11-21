@@ -21,7 +21,7 @@ class HomePageView(TemplateView):
 @login_required
 def create_recipe(request):
     if request.method == "POST":
-        recipe_form = RecipeForm(request.POST)
+        recipe_form = RecipeForm(request.POST, request.FILES)
         instruction_formset = InstructionFormSet(
             request.POST, queryset=Instruction.objects.none()
         )

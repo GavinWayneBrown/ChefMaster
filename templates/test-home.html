@@ -3,6 +3,7 @@
 {% load static %}
 {% block title %}Home{% endblock title %}
 {% block content %}  
+
       <!-- Page header with logo and tagline-->
         <header class="bg-light border-bottom mb-4">
            
@@ -13,12 +14,15 @@
                 <!-- Blog entries-->
                 <div class="col-lg-8">
                     <div class="row">
+                        {% load thumbnail %}
                         {% for recipe in recipe_list %}
                         <div class="col-lg-6">
                             <div class="card mb-4 ">
                                 <a href="{{ recipe.get_absolute_url }}">
-                                    <img class="card-img-top " src="{{ recipe.image_url|default:'https://dummyimage.com/700x350/dee2e6/6c757d.jpg' }}" alt="{{ recipe.title }}" />
+                                    {%thumbnail recipe.image "400x300" crop="center" as im %}
+                                    <img class="card-img-top " src="{{ im.url }}" alt="{{ recipe.title }}" />
                                 </a>
+                                {%endthumbnail%}
                                 <div class="card-body ">
                                     <div class="small text-muted">{{ recipe.date }}</div>
                                     <h2 class="card-title h4">{{ recipe.title }}</h2>

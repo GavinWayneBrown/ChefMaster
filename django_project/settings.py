@@ -61,8 +61,13 @@ INSTALLED_APPS = [
     # local apps
     "recipes",
     "chefs",
+    'sorl.thumbnail',
+
 
 ]
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
