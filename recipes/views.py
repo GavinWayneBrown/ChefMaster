@@ -19,14 +19,15 @@ logger = logging.getLogger(__name__)
 from django.core.paginator import Paginator
 from django.shortcuts import render
 
+
 def home(request):
     recipe_list = Recipe.objects.all()  # Query your recipes
     paginator = Paginator(recipe_list, 6)  # 6 posts per page
 
-    page_number = request.GET.get('page')
+    page_number = request.GET.get("page")
     page_obj = paginator.get_page(page_number)
 
-    return render(request, 'test-home.html', {'page_obj': page_obj})
+    return render(request, "test-home.html", {"page_obj": page_obj})
 
 
 @login_required
@@ -70,6 +71,7 @@ def create_recipe(request):
             recipe = recipe_form.save(commit=False)
             recipe.author = request.user
             recipe.save()
+            recipe_form.save_m2m()
 
             # Save instructions
             instructions = instruction_formset.save(commit=False)
