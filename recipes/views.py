@@ -1,9 +1,11 @@
 from django.shortcuts import render, redirect, get_object_or_404
+from django.views.generic.edit import UpdateView, DeleteView
 from .forms import RecipeForm, InstructionForm, IngredientForm
 from django.forms import modelformset_factory
 from django.views.generic import TemplateView
 from .models import Recipe, Instruction, Ingredient
 from django.views import View
+from django.urls import reverse_lazy
 
 
 class HomePageView(TemplateView):
@@ -13,6 +15,16 @@ class HomePageView(TemplateView):
         context = super().get_context_data(**kwargs)
         context["recipe_list"] = Recipe.objects.all()
         return context
+
+class RecipeUpdateView(UpdateView):
+    model = Recipe
+    fields = ("title", "summary", "prep_time")
+    template_name = "recipe_edit.html"
+
+class RecipeDeleteView(DeleteView): 
+    model = Recipe
+    template_name = "recipe_delete.html"
+    success_url = reverse_lazy("home")
 
 
 def create_recipe(request):
