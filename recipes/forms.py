@@ -51,6 +51,11 @@ class CommentForm(forms.ModelForm):
         model = Comment
         fields = ["text"]
 
+    def __init__(self, *args, **kwargs):
+        super(CommentForm, self).__init__(*args, **kwargs)
+        self.fields["text"].label = "Leave a comment for the chef!"
+        self.fields["text"].required = False
+
 
 # Inline formsets
 # In forms.py
