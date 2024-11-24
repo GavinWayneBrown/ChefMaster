@@ -24,6 +24,8 @@
                                     <a class="badge bg-secondary text-decoration-none link-light" href="#">{{ category.name }}</a>
                                 {% endfor %}
                             </div>
+                            <!-- Post views-->
+                            <div class="text-muted fst-italic mb-2">Views: {{ recipe.hit_count.hits }}</div>
                         </header>
                         <!-- Preview image figure-->
                         {% load thumbnail %}

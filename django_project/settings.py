@@ -16,7 +16,7 @@ import sys
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-STATICFILES_DIRS = [BASE_DIR / 'static']
+STATICFILES_DIRS = [BASE_DIR / "static"]
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
@@ -29,45 +29,44 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 LOGGING = {
-    'version': 1,
-    'disable_existing_loggers': False,
-    'handlers': {
-        'console': {
-            'class': 'logging.StreamHandler',
+    "version": 1,
+    "disable_existing_loggers": False,
+    "handlers": {
+        "console": {
+            "class": "logging.StreamHandler",
         },
-        'file': {
-            'class': 'logging.FileHandler',
-            'filename': 'debug.log',
+        "file": {
+            "class": "logging.FileHandler",
+            "filename": "debug.log",
         },
     },
-    'loggers': {
-        '': {  # Root logger
-            'handlers': ['console', 'file'],
-            'level': 'DEBUG',
+    "loggers": {
+        "": {  # Root logger
+            "handlers": ["console", "file"],
+            "level": "DEBUG",
         },
     },
 }
 # Application definition
 
 INSTALLED_APPS = [
-   "django.contrib.admin",
+    "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    'crispy_forms',
-    'crispy_bootstrap4',
+    "crispy_forms",
+    "crispy_bootstrap4",
     # local apps
     "recipes",
     "chefs",
-    'sorl.thumbnail',
-
-
+    "sorl.thumbnail",
+    "hitcount",
 ]
 
-MEDIA_URL = '/media/'
-MEDIA_ROOT = BASE_DIR / 'media'
+MEDIA_URL = "/media/"
+MEDIA_ROOT = BASE_DIR / "media"
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
@@ -145,8 +144,8 @@ if not TESTING:
     ]
 
 
-LOGIN_REDIRECT_URL = "home"  
-LOGOUT_REDIRECT_URL = "home" 
+LOGIN_REDIRECT_URL = "home"
+LOGOUT_REDIRECT_URL = "home"
 
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
@@ -171,6 +170,6 @@ STATIC_URL = "static/"
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 AUTH_USER_MODEL = "chefs.CustomUser"
 
-CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap4"  
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap4"
 
-CRISPY_TEMPLATE_PACK = "bootstrap4"  
+CRISPY_TEMPLATE_PACK = "bootstrap4"

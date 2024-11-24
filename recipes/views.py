@@ -12,6 +12,8 @@ from django.views.generic import TemplateView
 from .models import Recipe, Instruction, Ingredient, Category
 from django.views import View
 from django.contrib.auth.decorators import login_required
+from hitcount.models import HitCount
+from hitcount.views import HitCountMixin
 import logging
 
 logger = logging.getLogger(__name__)
@@ -85,6 +87,11 @@ def recipe_detail(request, pk):
     instructions = Instruction.objects.filter(recipe=recipe).order_by("order")
     ingredients = Ingredient.objects.filter(recipe=recipe)
     comments = recipe.comments.all()
+
+    # Hit count
+    hit_count = HitCount.objects.get_for_object(recipe)
+    HitCountMixin.hit_count(request, hit_count)
+
     if request.method == "POST":
         if not request.user.is_authenticated:
             return redirect("login")

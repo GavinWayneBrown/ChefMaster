@@ -4787,3 +4787,765 @@ Getting thumbnail for file [recipes/IMG_1109_ca6EuGQ.jpeg] at [800x300]
 Not Found: /recipe/7/js/scripts.js
 Getting thumbnail for file [recipes/IMG_1109_ca6EuGQ.jpeg] at [800x300]
 Not Found: /recipe/7/js/scripts.js
+Watching for file changes with StatReloader
+Getting thumbnail for file [recipes/IMG_1109_ca6EuGQ.jpeg] at [800x300]
+Not Found: /recipe/7/js/scripts.js
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [recipes/IMG_1109.jpeg] at [400x300]
+Getting thumbnail for file [recipes/IMG_1109_lZoXpP3.jpeg] at [400x300]
+Not Found: /media/cache/07/71/077145650a48e2b1e082ee7cd8ac0d52.jpg
+Not Found: /js/scripts.js
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [800x300]
+[Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [800x300] does not exist
+Not Found: /media/cache/22/1c/221c5d1ba945179efa28ca916a920b92.jpg
+Not Found: /recipe/2/js/scripts.js
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [800x300]
+[Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [800x300] does not exist
+Not Found: /media/cache/22/1c/221c5d1ba945179efa28ca916a920b92.jpg
+Not Found: /recipe/2/js/scripts.js
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [800x300]
+[Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [800x300] does not exist
+Not Found: /recipe/2/js/scripts.js
+Not Found: /media/cache/22/1c/221c5d1ba945179efa28ca916a920b92.jpg
+/Users/timvandriel/Desktop/CSCI258/ChefMaster/recipes/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /recipe/2/
+Traceback (most recent call last):
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/recipes/views.py", line 93, in recipe_detail
+    HitCountMixin.hit_count(request, hit_count)
+                                     ^^^^^^^^^
+NameError: name 'hit_count' is not defined. Did you mean: 'HitCount'?
+/Users/timvandriel/Desktop/CSCI258/ChefMaster/recipes/views.py changed, reloading.
+Watching for file changes with StatReloader
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [800x300]
+[Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [800x300] does not exist
+Not Found: /media/cache/22/1c/221c5d1ba945179efa28ca916a920b92.jpg
+Not Found: /recipe/2/js/scripts.js
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [recipes/IMG_1109.jpeg] at [400x300]
+Getting thumbnail for file [recipes/IMG_1109_lZoXpP3.jpeg] at [400x300]
+Not Found: /js/scripts.js
+Not Found: /media/cache/07/71/077145650a48e2b1e082ee7cd8ac0d52.jpg
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [800x300]
+[Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [800x300] does not exist
+Not Found: /media/cache/22/1c/221c5d1ba945179efa28ca916a920b92.jpg
+Not Found: /recipe/1/js/scripts.js
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [recipes/IMG_1109.jpeg] at [400x300]
+Getting thumbnail for file [recipes/IMG_1109_lZoXpP3.jpeg] at [400x300]
+Not Found: /media/cache/07/71/077145650a48e2b1e082ee7cd8ac0d52.jpg
+Not Found: /js/scripts.js
+Not Found: /js/scripts.js
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [800x300]
+[Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [800x300] does not exist
+Not Found: /media/cache/22/1c/221c5d1ba945179efa28ca916a920b92.jpg
+Not Found: /recipe/2/js/scripts.js
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [recipes/IMG_1109.jpeg] at [400x300]
+Getting thumbnail for file [recipes/IMG_1109_lZoXpP3.jpeg] at [400x300]
+Not Found: /js/scripts.js
+Not Found: /media/cache/07/71/077145650a48e2b1e082ee7cd8ac0d52.jpg
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [recipes/IMG_1109.jpeg] at [400x300]
+Getting thumbnail for file [recipes/IMG_1109_lZoXpP3.jpeg] at [400x300]
+Not Found: /js/scripts.js
+Not Found: /media/cache/07/71/077145650a48e2b1e082ee7cd8ac0d52.jpg
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [800x300]
+[Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [800x300] does not exist
+Not Found: /media/cache/22/1c/221c5d1ba945179efa28ca916a920b92.jpg
+Not Found: /recipe/2/js/scripts.js
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [recipes/IMG_1109.jpeg] at [400x300]
+Getting thumbnail for file [recipes/IMG_1109_lZoXpP3.jpeg] at [400x300]
+Not Found: /js/scripts.js
+Not Found: /media/cache/07/71/077145650a48e2b1e082ee7cd8ac0d52.jpg
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timvandriel/Desktop/CSCI258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/timvandriel/Desktop/CSCI258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [recipes/IMG_1109.jpeg] at [400x300]
+Getting thumbnail for file [recipes/IMG_1109_lZoXpP3.jpeg] at [400x300]
+Not Found: /js/scripts.js
+Not Found: /media/cache/07/71/077145650a48e2b1e082ee7cd8ac0d52.jpg
