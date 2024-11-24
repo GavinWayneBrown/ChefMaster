@@ -5,6 +5,7 @@ from .forms import (
     IngredientForm,
     InstructionFormSet,
     IngredientFormSet,
+    CommentForm,
 )
 from django.forms import modelformset_factory
 from django.views.generic import TemplateView
@@ -83,9 +84,27 @@ def recipe_detail(request, pk):
     recipe = get_object_or_404(Recipe, pk=pk)
     instructions = Instruction.objects.filter(recipe=recipe).order_by("order")
     ingredients = Ingredient.objects.filter(recipe=recipe)
-
+    comments = recipe.comments.all()
+    if request.method == "POST":
+        if not request.user.is_authenticated:
+            return redirect("login")
+        comment_form = CommentForm(request.POST)
+        if comment_form.is_valid():
+            comment = comment_form.save(commit=False)
+            comment.recipe = recipe
+            comment.author = request.user
+            comment.save()
+            return redirect("recipe_detail", pk=recipe.pk)
+    else:
+        comment_form = CommentForm()
     return render(
         request,
         "recipe/recipe_detail.html",
-        {"recipe": recipe, "instructions": instructions, "ingredients": ingredients},
+        {
+            "recipe": recipe,
+            "instructions": instructions,
+            "ingredients": ingredients,
+            "comments": comments,
+            "comment_form": comment_form,
+        },
     )
