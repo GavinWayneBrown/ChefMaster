@@ -19,20 +19,20 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                
-                <li class="nav-item"><a class="nav-link" href="#">My Recipes</a></li>
-                <li class="nav-item"><a class="nav-link" href="{%url 'create_recipe'%}">+ Add Recipe</a></li>
                 {% if user.is_authenticated %}
+                <li class="nav-item"><a class="nav-link" href="{%url 'recipes_by_author' request.user.id%}">My Recipes</a></li>
+                <li class="nav-item"><a class="nav-link" href="{%url 'create_recipe'%}">+ Add Recipe</a></li>
+               
                 <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">{{ user.username }}</a>
                       <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         
                           <li><a class="dropdown-item" href="{% url 'password_change' %}">Change password</a></li>
                           <li><hr class="dropdown-divider" /></li>
-                          <li>
+                          <li> 
                               <form method="post" action="{% url 'logout' %}" style="display:inline;">
                                 {% csrf_token %}
-                                  <button type="submit" class="btn btn-link nav-link" style="display:inline; cursor:pointer;">Logout</button>
+                                  <button type="submit" class="dropdown-item" >Logout</button>
                               </form>
                           </li>
                       </ul>

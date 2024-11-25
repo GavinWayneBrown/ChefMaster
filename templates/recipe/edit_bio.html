@@ -1,0 +1,16 @@
+<!-- recipes/edit_bio.html -->
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+
+{% block title %}Edit Bio{% endblock title %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1>Edit Bio</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form|crispy }}
+        <button type="submit" class="btn btn-primary mt-3">Save</button>
+    </form>
+</div>
+{% endblock %}

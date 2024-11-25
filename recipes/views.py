@@ -17,11 +17,12 @@ from django.views import View
 from django.contrib.auth.decorators import login_required
 from hitcount.models import HitCount
 from hitcount.views import HitCountMixin
-import logging
 
-logger = logging.getLogger(__name__)
+from chefs.models import CustomUser
+
 from django.core.paginator import Paginator
 from django.shortcuts import render
+from django.conf import settings
 
 
 def home(request):
@@ -161,3 +162,13 @@ def recipe_detail(request, pk):
             "comment_form": comment_form,
         },
     )
+
+def recipes_by_author(request, author_id):
+    author = get_object_or_404(CustomUser, pk=author_id)
+    recipes = Recipe.objects.filter(author=author)  # Query your recipes
+    paginator = Paginator(recipes, 9)  # 6 posts per page
+
+    page_number = request.GET.get('page')
+    page_obj = paginator.get_page(page_number)
+
+    return render(request, 'recipe/recipe_by_author.html', {'author': author, "page_obj": page_obj})

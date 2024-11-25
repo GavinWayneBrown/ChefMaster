@@ -17,7 +17,8 @@
                             <!-- Post title-->
                             <h1 class="fw-bolder mb-1">{{recipe.title}}</h1>
                             <!-- Post meta content-->
-                            <div class="text-muted fst-italic mb-2">Posted on {{ recipe.date|localtime }} by {{recipe.author}}. </div>
+                            <div class="text-muted fst-italic mb-2">Posted on {{ recipe.date|localtime }} by <a href="{% url 'recipes_by_author' author_id=recipe.author.pk %}">{{ recipe.author.username }}</a></p>
+                                </div>
                             <!-- Post categories-->
                             <div>
                                 {% for category in recipe.categories.all %}
