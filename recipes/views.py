@@ -7,6 +7,9 @@ from .forms import (
     IngredientFormSet,
     CommentForm,
 )
+from django.views.generic.edit import UpdateView, DeleteView
+from .forms import RecipeForm, InstructionForm, IngredientForm
+from django.urls import reverse_lazy
 from django.forms import modelformset_factory
 from django.views.generic import TemplateView
 from .models import Recipe, Instruction, Ingredient, Category
@@ -37,6 +40,49 @@ def home(request):
 
 
 @login_required
+
+
+class HomePageView(TemplateView):
+    template_name = "test-home.html"
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context["recipe_list"] = Recipe.objects.all()
+        return context
+
+class RecipeUpdateView(UpdateView):
+    model = Recipe
+    fields = (           
+        "image",
+        "title",
+        "summary",
+        "prep_time",
+        "cook_time",
+        "total_time",
+        "servings",
+        "categories",
+    )
+    template_name = "recipe_edit.html"
+    success_url = reverse_lazy("home")
+
+    def get_form_kwargs(self):
+        kwargs = super().get_form_kwargs()
+        if self.request.method in ('POST', 'PUT'):
+            kwargs.update({
+                'files': self.request.FILES
+            })
+        return kwargs
+
+    def form_valid(self, form):
+        # If a new file is uploaded, the old one will be replaced automatically
+        return super().form_valid(form)
+
+class RecipeDeleteView(DeleteView): 
+    model = Recipe
+    template_name = "recipe_delete.html"
+    success_url = reverse_lazy("home")
+
+
 def create_recipe(request):
     if request.method == "POST":
         recipe_form = RecipeForm(request.POST, request.FILES)

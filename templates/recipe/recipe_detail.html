@@ -57,6 +57,14 @@
                             
                         </section>
                     </article>
+                    {% if user.is_authenticated %}
+                    <div>
+                        <p>
+                            <a class="btn btn-primary" href="{% url 'recipe_edit' recipe.pk %}">Edit</a>
+                            <a class="btn btn-primary" href="{% url 'recipe_delete' recipe.pk %}">Delete</a>
+                        </p>
+                    </div>
+                    {% endif %}
                     <!-- Comments section-->
                     <section class="mb-5">
                         <h2>Comments</h2>
@@ -95,8 +103,7 @@
 
             </div>
         </div>
-        <!-- Footer-->
-       
+
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
