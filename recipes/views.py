@@ -47,9 +47,30 @@ class HomePageView(TemplateView):
 
 class RecipeUpdateView(UpdateView):
     model = Recipe
-    fields = ("title", "summary", "prep_time")
+    fields = (           
+        "image",
+        "title",
+        "summary",
+        "prep_time",
+        "cook_time",
+        "total_time",
+        "servings",
+        "categories",
+    )
     template_name = "recipe_edit.html"
     success_url = reverse_lazy("home")
+
+    def get_form_kwargs(self):
+        kwargs = super().get_form_kwargs()
+        if self.request.method in ('POST', 'PUT'):
+            kwargs.update({
+                'files': self.request.FILES
+            })
+        return kwargs
+
+    def form_valid(self, form):
+        # If a new file is uploaded, the old one will be replaced automatically
+        return super().form_valid(form)
 
 class RecipeDeleteView(DeleteView): 
     model = Recipe
