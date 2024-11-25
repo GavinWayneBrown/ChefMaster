@@ -23,7 +23,11 @@ from django.conf import settings
 
 
 def home(request):
-    recipe_list = Recipe.objects.all()  # Query your recipes
+    query = request.GET.get('q')
+    if query:
+        recipe_list = Recipe.objects.filter(title__icontains=query)
+    else:
+        recipe_list = Recipe.objects.all()
     paginator = Paginator(recipe_list, 6)  # 6 posts per page
 
     page_number = request.GET.get("page")
