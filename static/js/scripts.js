@@ -57,3 +57,5 @@
         document.getElementById('ingredients').appendChild(newForm);
         totalFormsInput.value = formIdx + 1;
     });
+
+    

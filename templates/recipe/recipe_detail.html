@@ -15,7 +15,8 @@
                             <!-- Post title-->
                             <h1 class="fw-bolder mb-1">{{recipe.title}}</h1>
                             <!-- Post meta content-->
-                            <div class="text-muted fst-italic mb-2">Posted on {{ recipe.date }} by {{recipe.author}}. </div>
+                            <div class="text-muted fst-italic mb-2">Posted on {{ recipe.date }} by <a href="{% url 'recipes_by_author' author_id=recipe.author.pk %}">{{ recipe.author.username }}</a></p>
+                                </div>
                             <!-- Post categories-->
                             <a class="badge bg-secondary text-decoration-none link-light" href="#!">Here are where tags will go</a>
                         </header>

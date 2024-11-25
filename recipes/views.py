@@ -12,10 +12,12 @@ from .models import Recipe, Instruction, Ingredient, Category
 from django.views import View
 from django.contrib.auth.decorators import login_required
 import logging
+from chefs.models import CustomUser
 
 logger = logging.getLogger(__name__)
 from django.core.paginator import Paginator
 from django.shortcuts import render
+from django.conf import settings
 
 def home(request):
     recipe_list = Recipe.objects.all()  # Query your recipes
@@ -87,3 +89,13 @@ def recipe_detail(request, pk):
         "recipe/recipe_detail.html",
         {"recipe": recipe, "instructions": instructions, "ingredients": ingredients},
     )
+
+def recipes_by_author(request, author_id):
+    author = get_object_or_404(CustomUser, pk=author_id)
+    recipes = Recipe.objects.filter(author=author)  # Query your recipes
+    paginator = Paginator(recipes, 9)  # 6 posts per page
+
+    page_number = request.GET.get('page')
+    page_obj = paginator.get_page(page_number)
+
+    return render(request, 'recipe/recipe_by_author.html', {'author': author, "page_obj": page_obj})

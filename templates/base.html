@@ -29,7 +29,7 @@
                         
                           <li><a class="dropdown-item" href="#">Change password</a></li>
                           <li><hr class="dropdown-divider" /></li>
-                          <li>
+                          <li> Log out
                               <form method="post" action="{% url 'logout' %}" style="display:inline;">
                                 {% csrf_token %}
                                   <button type="submit" class="btn btn-link nav-link" style="display:inline; cursor:pointer;">Logout</button>
