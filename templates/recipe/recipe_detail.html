@@ -108,5 +108,12 @@
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
     </body>
+    <div>
+        <p>
+            <a href="{% url 'recipe_edit' recipe.pk %}">Edit</a>
+            <a href="{% url 'recipe_delete' recipe.pk %}">Delete</a>
+        </p>
+        <p>Back to <a href="{% url 'home' %}">All Recipes</a>.</p>
+    </div>
 </html>
 {%endblock%}

@@ -8,6 +8,7 @@ from .forms import (
 )
 from django.views.generic.edit import UpdateView, DeleteView
 from .forms import RecipeForm, InstructionForm, IngredientForm
+from django.urls import reverse_lazy
 from django.forms import modelformset_factory
 from django.views.generic import TemplateView
 from .models import Recipe, Instruction, Ingredient, Category
@@ -31,7 +32,6 @@ def home(request):
 
 
 @login_required
-from django.urls import reverse_lazy
 
 
 class HomePageView(TemplateView):
@@ -46,6 +46,7 @@ class RecipeUpdateView(UpdateView):
     model = Recipe
     fields = ("title", "summary", "prep_time")
     template_name = "recipe_edit.html"
+    success_url = reverse_lazy("home")
 
 class RecipeDeleteView(DeleteView): 
     model = Recipe
