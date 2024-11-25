@@ -1,6 +1,7 @@
 
 {% extends "base.html" %}
 {% load static %}
+{% load tz %}
 {% block title %}Home{% endblock title %}
 {% block content %}
 
@@ -23,9 +24,10 @@
                         </a>
                         {% endthumbnail %}
                         <div class="card-body">
-                            <div class="small text-muted">{{ recipe.date }}</div>
+                            <div class="small text-muted">{{ recipe.date|localtime }}</div>
                             <h2 class="card-title h4">{{ recipe.title }}</h2>
                             <p class="card-text">{{ recipe.summary }}</p>
+                            <p class="card-text">Views: {{ recipe.hit_count.hits }}</p>
                             <a class="btn btn-primary" href="{{ recipe.get_absolute_url }}">Read more →</a>
                         </div>
                     </div>

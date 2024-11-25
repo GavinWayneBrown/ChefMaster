@@ -11,6 +11,15 @@
 <div class="container">
     <div class="row">
         <h2>{{author}}'s recipes</h2>
+        <div class="card mb-4">
+            <div class="card-body">
+                <h5 class="card-title">About {{ author }}</h5>
+                <p class="card-text">{{ author.bio }}</p>
+                {% if user.is_authenticated and user == author %}
+                <a href="{% url 'edit_bio' %}" class="btn btn-secondary">Edit Bio</a>
+                {% endif %}
+            </div>
+        </div>
         <!-- Blog entries -->
         <div class="col-lg-12">
             <div class="row">

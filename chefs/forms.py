@@ -1,6 +1,6 @@
 from django.contrib.auth.forms import UserCreationForm, UserChangeForm 
 from .models import CustomUser
-
+from django.forms import ModelForm
 
 class CustomUserCreationForm(UserCreationForm): 
     class Meta:
@@ -23,3 +23,8 @@ class CustomUserChangeForm(UserChangeForm):
             "bio", 
             "favoriteCuisine",
         )
+
+class EditBioForm(ModelForm):
+    class Meta:
+        model = CustomUser
+        fields = ['bio']

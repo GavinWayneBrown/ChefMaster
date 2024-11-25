@@ -1,5 +1,5 @@
 from django import forms
-from .models import Recipe, Instruction, Ingredient, Category
+from .models import Recipe, Instruction, Ingredient, Category, Comment
 from django.forms import inlineformset_factory
 from .fields import CustomDurationField
 
@@ -44,6 +44,17 @@ class IngredientForm(forms.ModelForm):
     class Meta:
         model = Ingredient
         fields = ["item", "quantity"]
+
+
+class CommentForm(forms.ModelForm):
+    class Meta:
+        model = Comment
+        fields = ["text"]
+
+    def __init__(self, *args, **kwargs):
+        super(CommentForm, self).__init__(*args, **kwargs)
+        self.fields["text"].label = "Leave a comment for the chef!"
+        self.fields["text"].required = False
 
 
 # Inline formsets
