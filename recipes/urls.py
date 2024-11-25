@@ -7,7 +7,7 @@ from .views import HomePageView, create_recipe, RecipeDeleteView, RecipeUpdateVi
 urlpatterns = [
     path("", home, name="home"),
     path("create/", create_recipe, name="create_recipe"),
-    path('recipe/<int:pk>/', recipe_detail, name='recipe_detail'),
+    path("recipe/<int:pk>/", recipe_detail, name="recipe_detail"),
     path("<int:pk>/delete/", RecipeDeleteView.as_view(),name="recipe_delete"),
     path("<int:pk>/edit/", RecipeUpdateView.as_view(),name="recipe_edit"),
 ]
