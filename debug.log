@@ -9938,3 +9938,1940 @@ FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbo
 Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
 Not Found: /js/scripts.js
 Not Found: /media/cache/07/71/077145650a48e2b1e082ee7cd8ac0d52.jpg
+Watching for file changes with StatReloader
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Not Found: /js/scripts.js
+Not Found: /media/cache/07/71/077145650a48e2b1e082ee7cd8ac0d52.jpg
+Not Found: /author/2/js/scripts.js
+Not Found: /author/2/js/scripts.js
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Not Found: /js/scripts.js
+Not Found: /media/cache/07/71/077145650a48e2b1e082ee7cd8ac0d52.jpg
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Not Found: /js/scripts.js
+Not Found: /media/cache/07/71/077145650a48e2b1e082ee7cd8ac0d52.jpg
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [800x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [800x300] does not exist
+Not Found: /recipe/16/js/scripts.js
+Not Found: /media/cache/22/1c/221c5d1ba945179efa28ca916a920b92.jpg
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Not Found: /media/cache/07/71/077145650a48e2b1e082ee7cd8ac0d52.jpg
+Not Found: /js/scripts.js
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [800x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [800x300] does not exist
+Not Found: /media/cache/22/1c/221c5d1ba945179efa28ca916a920b92.jpg
+Not Found: /recipe/17/js/scripts.js
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Not Found: /media/cache/07/71/077145650a48e2b1e082ee7cd8ac0d52.jpg
+Not Found: /js/scripts.js
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [800x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [800x300] does not exist
+Not Found: /media/cache/22/1c/221c5d1ba945179efa28ca916a920b92.jpg
+Not Found: /recipe/18/js/scripts.js
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Not Found: /media/cache/07/71/077145650a48e2b1e082ee7cd8ac0d52.jpg
+Not Found: /js/scripts.js
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [800x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [800x300] does not exist
+Not Found: /recipe/19/js/scripts.js
+Not Found: /media/cache/22/1c/221c5d1ba945179efa28ca916a920b92.jpg
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Not Found: /js/scripts.js
+Not Found: /media/cache/07/71/077145650a48e2b1e082ee7cd8ac0d52.jpg
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [800x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [800x300] does not exist
+Not Found: /media/cache/22/1c/221c5d1ba945179efa28ca916a920b92.jpg
+Not Found: /recipe/20/js/scripts.js
+Getting thumbnail for file [recipes/a0aad03b8487a1b6a87b9646cd0d939e.jpg] at [400x300]
+Creating thumbnail file [cache/43/fc/43fc502b0b87d6d7ceed1df0d4d0c231.jpg] at [400x300] with [{'crop': 'center', 'format': 'JPEG', 'quality': 95, 'colorspace': 'RGB', 'upscale': True, 'cropbox': None, 'rounded': None, 'padding': False, 'padding_color': '#ffffff', 'image_info': {'jfif': 257, 'jfif_version': (1, 1), 'jfif_unit': 0, 'jfif_density': (1, 1), 'progressive': 1, 'progression': 1, 'icc_profile': b'\x00\x00\x02\x18appl\x04\x00\x00\x00mntrRGB XYZ \x07\xe6\x00\x01\x00\x01\x00\x00\x00\x00\x00\x00acspAPPL\x00\x00\x00\x00APPL\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xf6\xd6\x00\x01\x00\x00\x00\x00\xd3-appl\xec\xfd\xa3\x8e8\x85G\xc3m\xb4\xbdOz\xda\x18/\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\ndesc\x00\x00\x00\xfc\x00\x00\x000cprt\x00\x00\x01,\x00\x00\x00Pwtpt\x00\x00\x01|\x00\x00\x00\x14rXYZ\x00\x00\x01\x90\x00\x00\x00\x14gXYZ\x00\x00\x01\xa4\x00\x00\x00\x14bXYZ\x00\x00\x01\xb8\x00\x00\x00\x14rTRC\x00\x00\x01\xcc\x00\x00\x00 chad\x00\x00\x01\xec\x00\x00\x00,bTRC\x00\x00\x01\xcc\x00\x00\x00 gTRC\x00\x00\x01\xcc\x00\x00\x00 mluc\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x0cenUS\x00\x00\x00\x14\x00\x00\x00\x1c\x00D\x00i\x00s\x00p\x00l\x00a\x00y\x00 \x00P\x003mluc\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x0cenUS\x00\x00\x004\x00\x00\x00\x1c\x00C\x00o\x00p\x00y\x00r\x00i\x00g\x00h\x00t\x00 \x00A\x00p\x00p\x00l\x00e\x00 \x00I\x00n\x00c\x00.\x00,\x00 \x002\x000\x002\x002XYZ \x00\x00\x00\x00\x00\x00\xf6\xd5\x00\x01\x00\x00\x00\x00\xd3,XYZ \x00\x00\x00\x00\x00\x00\x83\xdf\x00\x00=\xbf\xff\xff\xff\xbbXYZ \x00\x00\x00\x00\x00\x00J\xbf\x00\x00\xb17\x00\x00\n\xb9XYZ \x00\x00\x00\x00\x00\x00(8\x00\x00\x11\x0b\x00\x00\xc8\xb9para\x00\x00\x00\x00\x00\x03\x00\x00\x00\x02ff\x00\x00\xf2\xa7\x00\x00\rY\x00\x00\x13\xd0\x00\x00\n[sf32\x00\x00\x00\x00\x00\x01\x0cB\x00\x00\x05\xde\xff\xff\xf3&\x00\x00\x07\x93\x00\x00\xfd\x90\xff\xff\xfb\xa2\xff\xff\xfd\xa3\x00\x00\x03\xdc\x00\x00\xc0n'}}]
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Not Found: /media/cache/07/71/077145650a48e2b1e082ee7cd8ac0d52.jpg
+Not Found: /js/scripts.js
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [800x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [800x300] does not exist
+Not Found: /recipe/21/js/scripts.js
+Not Found: /media/cache/22/1c/221c5d1ba945179efa28ca916a920b92.jpg
+Getting thumbnail for file [recipes/a0aad03b8487a1b6a87b9646cd0d939e.jpg] at [400x300]
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Not Found: /media/cache/07/71/077145650a48e2b1e082ee7cd8ac0d52.jpg
+Not Found: /js/scripts.js
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [800x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [800x300] does not exist
+Not Found: /recipe/22/js/scripts.js
+Not Found: /media/cache/22/1c/221c5d1ba945179efa28ca916a920b92.jpg
+Getting thumbnail for file [recipes/a0aad03b8487a1b6a87b9646cd0d939e.jpg] at [400x300]
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Not Found: /js/scripts.js
+Not Found: /media/cache/07/71/077145650a48e2b1e082ee7cd8ac0d52.jpg
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [800x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [800x300] does not exist
+Not Found: /recipe/23/js/scripts.js
+Not Found: /media/cache/22/1c/221c5d1ba945179efa28ca916a920b92.jpg
+Getting thumbnail for file [recipes/a0aad03b8487a1b6a87b9646cd0d939e.jpg] at [400x300]
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Not Found: /js/scripts.js
+Not Found: /media/cache/07/71/077145650a48e2b1e082ee7cd8ac0d52.jpg
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [800x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [800x300] does not exist
+Not Found: /recipe/24/js/scripts.js
+Not Found: /media/cache/22/1c/221c5d1ba945179efa28ca916a920b92.jpg
+Getting thumbnail for file [recipes/a0aad03b8487a1b6a87b9646cd0d939e.jpg] at [400x300]
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Not Found: /js/scripts.js
+Not Found: /media/cache/07/71/077145650a48e2b1e082ee7cd8ac0d52.jpg
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [800x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [800x300] does not exist
+Not Found: /recipe/25/js/scripts.js
+Not Found: /media/cache/22/1c/221c5d1ba945179efa28ca916a920b92.jpg
+Getting thumbnail for file [recipes/a0aad03b8487a1b6a87b9646cd0d939e.jpg] at [400x300]
+Getting thumbnail for file [recipes/eca705677fa1210022584fa81e755b97.jpg] at [400x300]
+Creating thumbnail file [cache/65/49/6549ee0c5a1e16ab2c04afc049a79d72.jpg] at [400x300] with [{'crop': 'center', 'format': 'JPEG', 'quality': 95, 'colorspace': 'RGB', 'upscale': True, 'cropbox': None, 'rounded': None, 'padding': False, 'padding_color': '#ffffff', 'image_info': {'jfif': 257, 'jfif_version': (1, 1), 'jfif_unit': 0, 'jfif_density': (1, 1), 'progressive': 1, 'progression': 1, 'icc_profile': b'\x00\x00\x02\x18appl\x04\x00\x00\x00mntrRGB XYZ \x07\xe6\x00\x01\x00\x01\x00\x00\x00\x00\x00\x00acspAPPL\x00\x00\x00\x00APPL\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xf6\xd6\x00\x01\x00\x00\x00\x00\xd3-appl\xec\xfd\xa3\x8e8\x85G\xc3m\xb4\xbdOz\xda\x18/\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\ndesc\x00\x00\x00\xfc\x00\x00\x000cprt\x00\x00\x01,\x00\x00\x00Pwtpt\x00\x00\x01|\x00\x00\x00\x14rXYZ\x00\x00\x01\x90\x00\x00\x00\x14gXYZ\x00\x00\x01\xa4\x00\x00\x00\x14bXYZ\x00\x00\x01\xb8\x00\x00\x00\x14rTRC\x00\x00\x01\xcc\x00\x00\x00 chad\x00\x00\x01\xec\x00\x00\x00,bTRC\x00\x00\x01\xcc\x00\x00\x00 gTRC\x00\x00\x01\xcc\x00\x00\x00 mluc\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x0cenUS\x00\x00\x00\x14\x00\x00\x00\x1c\x00D\x00i\x00s\x00p\x00l\x00a\x00y\x00 \x00P\x003mluc\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x0cenUS\x00\x00\x004\x00\x00\x00\x1c\x00C\x00o\x00p\x00y\x00r\x00i\x00g\x00h\x00t\x00 \x00A\x00p\x00p\x00l\x00e\x00 \x00I\x00n\x00c\x00.\x00,\x00 \x002\x000\x002\x002XYZ \x00\x00\x00\x00\x00\x00\xf6\xd5\x00\x01\x00\x00\x00\x00\xd3,XYZ \x00\x00\x00\x00\x00\x00\x83\xdf\x00\x00=\xbf\xff\xff\xff\xbbXYZ \x00\x00\x00\x00\x00\x00J\xbf\x00\x00\xb17\x00\x00\n\xb9XYZ \x00\x00\x00\x00\x00\x00(8\x00\x00\x11\x0b\x00\x00\xc8\xb9para\x00\x00\x00\x00\x00\x03\x00\x00\x00\x02ff\x00\x00\xf2\xa7\x00\x00\rY\x00\x00\x13\xd0\x00\x00\n[sf32\x00\x00\x00\x00\x00\x01\x0cB\x00\x00\x05\xde\xff\xff\xf3&\x00\x00\x07\x93\x00\x00\xfd\x90\xff\xff\xfb\xa2\xff\xff\xfd\xa3\x00\x00\x03\xdc\x00\x00\xc0n'}}]
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Not Found: /js/scripts.js
+Not Found: /media/cache/07/71/077145650a48e2b1e082ee7cd8ac0d52.jpg
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [800x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [800x300] does not exist
+Not Found: /media/cache/22/1c/221c5d1ba945179efa28ca916a920b92.jpg
+Not Found: /recipe/26/js/scripts.js
+Getting thumbnail for file [recipes/a0aad03b8487a1b6a87b9646cd0d939e.jpg] at [400x300]
+Getting thumbnail for file [recipes/eca705677fa1210022584fa81e755b97.jpg] at [400x300]
+Getting thumbnail for file [recipes/a6c1246171e02e7a68290aefa840746a.jpg] at [400x300]
+Creating thumbnail file [cache/56/f8/56f8b6b2fb669dd1061353c6fce8ebe2.jpg] at [400x300] with [{'crop': 'center', 'format': 'JPEG', 'quality': 95, 'colorspace': 'RGB', 'upscale': True, 'cropbox': None, 'rounded': None, 'padding': False, 'padding_color': '#ffffff', 'image_info': {'jfif': 257, 'jfif_version': (1, 1), 'jfif_unit': 0, 'jfif_density': (1, 1), 'progressive': 1, 'progression': 1}}]
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Not Found: /media/cache/07/71/077145650a48e2b1e082ee7cd8ac0d52.jpg
+Not Found: /js/scripts.js
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [800x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [800x300] does not exist
+Not Found: /recipe/27/js/scripts.js
+Not Found: /media/cache/22/1c/221c5d1ba945179efa28ca916a920b92.jpg
+Getting thumbnail for file [recipes/a0aad03b8487a1b6a87b9646cd0d939e.jpg] at [400x300]
+Getting thumbnail for file [recipes/eca705677fa1210022584fa81e755b97.jpg] at [400x300]
+Getting thumbnail for file [recipes/a6c1246171e02e7a68290aefa840746a.jpg] at [400x300]
+Getting thumbnail for file [recipes/6549ee0c5a1e16ab2c04afc049a79d72.jpg] at [400x300]
+Creating thumbnail file [cache/d9/6c/d96ce70bfb2a6e1a810bf54e6f32107f.jpg] at [400x300] with [{'crop': 'center', 'format': 'JPEG', 'quality': 95, 'colorspace': 'RGB', 'upscale': True, 'cropbox': None, 'rounded': None, 'padding': False, 'padding_color': '#ffffff', 'image_info': {'jfif': 257, 'jfif_version': (1, 1), 'jfif_unit': 0, 'jfif_density': (1, 1), 'progressive': 1, 'progression': 1, 'icc_profile': b'\x00\x00\x02\x18appl\x04\x00\x00\x00mntrRGB XYZ \x07\xe6\x00\x01\x00\x01\x00\x00\x00\x00\x00\x00acspAPPL\x00\x00\x00\x00APPL\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xf6\xd6\x00\x01\x00\x00\x00\x00\xd3-appl\xec\xfd\xa3\x8e8\x85G\xc3m\xb4\xbdOz\xda\x18/\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\ndesc\x00\x00\x00\xfc\x00\x00\x000cprt\x00\x00\x01,\x00\x00\x00Pwtpt\x00\x00\x01|\x00\x00\x00\x14rXYZ\x00\x00\x01\x90\x00\x00\x00\x14gXYZ\x00\x00\x01\xa4\x00\x00\x00\x14bXYZ\x00\x00\x01\xb8\x00\x00\x00\x14rTRC\x00\x00\x01\xcc\x00\x00\x00 chad\x00\x00\x01\xec\x00\x00\x00,bTRC\x00\x00\x01\xcc\x00\x00\x00 gTRC\x00\x00\x01\xcc\x00\x00\x00 mluc\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x0cenUS\x00\x00\x00\x14\x00\x00\x00\x1c\x00D\x00i\x00s\x00p\x00l\x00a\x00y\x00 \x00P\x003mluc\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x0cenUS\x00\x00\x004\x00\x00\x00\x1c\x00C\x00o\x00p\x00y\x00r\x00i\x00g\x00h\x00t\x00 \x00A\x00p\x00p\x00l\x00e\x00 \x00I\x00n\x00c\x00.\x00,\x00 \x002\x000\x002\x002XYZ \x00\x00\x00\x00\x00\x00\xf6\xd5\x00\x01\x00\x00\x00\x00\xd3,XYZ \x00\x00\x00\x00\x00\x00\x83\xdf\x00\x00=\xbf\xff\xff\xff\xbbXYZ \x00\x00\x00\x00\x00\x00J\xbf\x00\x00\xb17\x00\x00\n\xb9XYZ \x00\x00\x00\x00\x00\x00(8\x00\x00\x11\x0b\x00\x00\xc8\xb9para\x00\x00\x00\x00\x00\x03\x00\x00\x00\x02ff\x00\x00\xf2\xa7\x00\x00\rY\x00\x00\x13\xd0\x00\x00\n[sf32\x00\x00\x00\x00\x00\x01\x0cB\x00\x00\x05\xde\xff\xff\xf3&\x00\x00\x07\x93\x00\x00\xfd\x90\xff\xff\xfb\xa2\xff\xff\xfd\xa3\x00\x00\x03\xdc\x00\x00\xc0n'}}]
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [400x300] does not exist
+Not Found: /media/cache/07/71/077145650a48e2b1e082ee7cd8ac0d52.jpg
+Not Found: /js/scripts.js
+Getting thumbnail for file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [800x300]
+[Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Traceback (most recent call last):
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/base.py", line 104, in get_thumbnail
+    source_image = default.engine.get_image(source)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/engines/pil_engine.py", line 83, in get_image
+    buffer = BytesIO(source.read())
+                     ^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/sorl/thumbnail/images.py", line 164, in read
+    f = self.storage.open(self.name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/media/https:/dummyimage.com/700x350/dee2e6/6c757d.jpg'
+Remote file [https://dummyimage.com/700x350/dee2e6/6c757d.jpg] at [800x300] does not exist
+Not Found: /recipe/28/js/scripts.js
+Not Found: /media/cache/22/1c/221c5d1ba945179efa28ca916a920b92.jpg
+Getting thumbnail for file [recipes/a0aad03b8487a1b6a87b9646cd0d939e.jpg] at [400x300]
+Getting thumbnail for file [recipes/eca705677fa1210022584fa81e755b97.jpg] at [400x300]
+Getting thumbnail for file [recipes/a6c1246171e02e7a68290aefa840746a.jpg] at [400x300]
+Getting thumbnail for file [recipes/6549ee0c5a1e16ab2c04afc049a79d72.jpg] at [400x300]
+Getting thumbnail for file [recipes/6549ee0c5a1e16ab2c04afc049a79d72_diU1OAY.jpg] at [400x300]
+Creating thumbnail file [cache/fd/fb/fdfb5247d3335db1c3e1a104dff4306b.jpg] at [400x300] with [{'crop': 'center', 'format': 'JPEG', 'quality': 95, 'colorspace': 'RGB', 'upscale': True, 'cropbox': None, 'rounded': None, 'padding': False, 'padding_color': '#ffffff', 'image_info': {'jfif': 257, 'jfif_version': (1, 1), 'jfif_unit': 0, 'jfif_density': (1, 1), 'progressive': 1, 'progression': 1, 'icc_profile': b'\x00\x00\x02\x18appl\x04\x00\x00\x00mntrRGB XYZ \x07\xe6\x00\x01\x00\x01\x00\x00\x00\x00\x00\x00acspAPPL\x00\x00\x00\x00APPL\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xf6\xd6\x00\x01\x00\x00\x00\x00\xd3-appl\xec\xfd\xa3\x8e8\x85G\xc3m\xb4\xbdOz\xda\x18/\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\ndesc\x00\x00\x00\xfc\x00\x00\x000cprt\x00\x00\x01,\x00\x00\x00Pwtpt\x00\x00\x01|\x00\x00\x00\x14rXYZ\x00\x00\x01\x90\x00\x00\x00\x14gXYZ\x00\x00\x01\xa4\x00\x00\x00\x14bXYZ\x00\x00\x01\xb8\x00\x00\x00\x14rTRC\x00\x00\x01\xcc\x00\x00\x00 chad\x00\x00\x01\xec\x00\x00\x00,bTRC\x00\x00\x01\xcc\x00\x00\x00 gTRC\x00\x00\x01\xcc\x00\x00\x00 mluc\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x0cenUS\x00\x00\x00\x14\x00\x00\x00\x1c\x00D\x00i\x00s\x00p\x00l\x00a\x00y\x00 \x00P\x003mluc\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x0cenUS\x00\x00\x004\x00\x00\x00\x1c\x00C\x00o\x00p\x00y\x00r\x00i\x00g\x00h\x00t\x00 \x00A\x00p\x00p\x00l\x00e\x00 \x00I\x00n\x00c\x00.\x00,\x00 \x002\x000\x002\x002XYZ \x00\x00\x00\x00\x00\x00\xf6\xd5\x00\x01\x00\x00\x00\x00\xd3,XYZ \x00\x00\x00\x00\x00\x00\x83\xdf\x00\x00=\xbf\xff\xff\xff\xbbXYZ \x00\x00\x00\x00\x00\x00J\xbf\x00\x00\xb17\x00\x00\n\xb9XYZ \x00\x00\x00\x00\x00\x00(8\x00\x00\x11\x0b\x00\x00\xc8\xb9para\x00\x00\x00\x00\x00\x03\x00\x00\x00\x02ff\x00\x00\xf2\xa7\x00\x00\rY\x00\x00\x13\xd0\x00\x00\n[sf32\x00\x00\x00\x00\x00\x01\x0cB\x00\x00\x05\xde\xff\xff\xf3&\x00\x00\x07\x93\x00\x00\xfd\x90\xff\xff\xfb\xa2\xff\xff\xfd\xa3\x00\x00\x03\xdc\x00\x00\xc0n'}}]
+Not Found: /js/scripts.js
+Not Found: /recipe/29/js/scripts.js
+Getting thumbnail for file [recipes/a0aad03b8487a1b6a87b9646cd0d939e.jpg] at [400x300]
+Getting thumbnail for file [recipes/eca705677fa1210022584fa81e755b97.jpg] at [400x300]
+Getting thumbnail for file [recipes/a6c1246171e02e7a68290aefa840746a.jpg] at [400x300]
+Getting thumbnail for file [recipes/6549ee0c5a1e16ab2c04afc049a79d72.jpg] at [400x300]
+Getting thumbnail for file [recipes/6549ee0c5a1e16ab2c04afc049a79d72_diU1OAY.jpg] at [400x300]
+Getting thumbnail for file [recipes/a6c1246171e02e7a68290aefa840746a_gsEqS6r.jpg] at [400x300]
+Creating thumbnail file [cache/be/50/be50ee21a6d25ca29f37b88e9c7b9da2.jpg] at [400x300] with [{'crop': 'center', 'format': 'JPEG', 'quality': 95, 'colorspace': 'RGB', 'upscale': True, 'cropbox': None, 'rounded': None, 'padding': False, 'padding_color': '#ffffff', 'image_info': {'jfif': 257, 'jfif_version': (1, 1), 'jfif_unit': 0, 'jfif_density': (1, 1), 'progressive': 1, 'progression': 1}}]
+Not Found: /js/scripts.js
+Getting thumbnail for file [recipes/EASY-Chana-Masala-SQUARE.jpg] at [400x300]
+Not Found: /js/scripts.js
+Getting thumbnail for file [recipes/a0aad03b8487a1b6a87b9646cd0d939e.jpg] at [400x300]
+Getting thumbnail for file [recipes/eca705677fa1210022584fa81e755b97.jpg] at [400x300]
+Getting thumbnail for file [recipes/a6c1246171e02e7a68290aefa840746a.jpg] at [400x300]
+Getting thumbnail for file [recipes/6549ee0c5a1e16ab2c04afc049a79d72.jpg] at [400x300]
+Getting thumbnail for file [recipes/6549ee0c5a1e16ab2c04afc049a79d72_diU1OAY.jpg] at [400x300]
+Getting thumbnail for file [recipes/a6c1246171e02e7a68290aefa840746a_gsEqS6r.jpg] at [400x300]
+Not Found: /js/scripts.js
+Getting thumbnail for file [recipes/a0aad03b8487a1b6a87b9646cd0d939e.jpg] at [400x200]
+Creating thumbnail file [cache/ea/22/ea22c5159d5ef73ed59f2f446bc645c2.jpg] at [400x200] with [{'crop': 'center', 'format': 'JPEG', 'quality': 95, 'colorspace': 'RGB', 'upscale': True, 'cropbox': None, 'rounded': None, 'padding': False, 'padding_color': '#ffffff', 'image_info': {'jfif': 257, 'jfif_version': (1, 1), 'jfif_unit': 0, 'jfif_density': (1, 1), 'progressive': 1, 'progression': 1, 'icc_profile': b'\x00\x00\x02\x18appl\x04\x00\x00\x00mntrRGB XYZ \x07\xe6\x00\x01\x00\x01\x00\x00\x00\x00\x00\x00acspAPPL\x00\x00\x00\x00APPL\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xf6\xd6\x00\x01\x00\x00\x00\x00\xd3-appl\xec\xfd\xa3\x8e8\x85G\xc3m\xb4\xbdOz\xda\x18/\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\ndesc\x00\x00\x00\xfc\x00\x00\x000cprt\x00\x00\x01,\x00\x00\x00Pwtpt\x00\x00\x01|\x00\x00\x00\x14rXYZ\x00\x00\x01\x90\x00\x00\x00\x14gXYZ\x00\x00\x01\xa4\x00\x00\x00\x14bXYZ\x00\x00\x01\xb8\x00\x00\x00\x14rTRC\x00\x00\x01\xcc\x00\x00\x00 chad\x00\x00\x01\xec\x00\x00\x00,bTRC\x00\x00\x01\xcc\x00\x00\x00 gTRC\x00\x00\x01\xcc\x00\x00\x00 mluc\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x0cenUS\x00\x00\x00\x14\x00\x00\x00\x1c\x00D\x00i\x00s\x00p\x00l\x00a\x00y\x00 \x00P\x003mluc\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x0cenUS\x00\x00\x004\x00\x00\x00\x1c\x00C\x00o\x00p\x00y\x00r\x00i\x00g\x00h\x00t\x00 \x00A\x00p\x00p\x00l\x00e\x00 \x00I\x00n\x00c\x00.\x00,\x00 \x002\x000\x002\x002XYZ \x00\x00\x00\x00\x00\x00\xf6\xd5\x00\x01\x00\x00\x00\x00\xd3,XYZ \x00\x00\x00\x00\x00\x00\x83\xdf\x00\x00=\xbf\xff\xff\xff\xbbXYZ \x00\x00\x00\x00\x00\x00J\xbf\x00\x00\xb17\x00\x00\n\xb9XYZ \x00\x00\x00\x00\x00\x00(8\x00\x00\x11\x0b\x00\x00\xc8\xb9para\x00\x00\x00\x00\x00\x03\x00\x00\x00\x02ff\x00\x00\xf2\xa7\x00\x00\rY\x00\x00\x13\xd0\x00\x00\n[sf32\x00\x00\x00\x00\x00\x01\x0cB\x00\x00\x05\xde\xff\xff\xf3&\x00\x00\x07\x93\x00\x00\xfd\x90\xff\xff\xfb\xa2\xff\xff\xfd\xa3\x00\x00\x03\xdc\x00\x00\xc0n'}}]
+Getting thumbnail for file [recipes/eca705677fa1210022584fa81e755b97.jpg] at [400x200]
+Creating thumbnail file [cache/c2/72/c27205ca9ab909e6362b76a939911b18.jpg] at [400x200] with [{'crop': 'center', 'format': 'JPEG', 'quality': 95, 'colorspace': 'RGB', 'upscale': True, 'cropbox': None, 'rounded': None, 'padding': False, 'padding_color': '#ffffff', 'image_info': {'jfif': 257, 'jfif_version': (1, 1), 'jfif_unit': 0, 'jfif_density': (1, 1), 'progressive': 1, 'progression': 1, 'icc_profile': b'\x00\x00\x02\x18appl\x04\x00\x00\x00mntrRGB XYZ \x07\xe6\x00\x01\x00\x01\x00\x00\x00\x00\x00\x00acspAPPL\x00\x00\x00\x00APPL\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xf6\xd6\x00\x01\x00\x00\x00\x00\xd3-appl\xec\xfd\xa3\x8e8\x85G\xc3m\xb4\xbdOz\xda\x18/\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\ndesc\x00\x00\x00\xfc\x00\x00\x000cprt\x00\x00\x01,\x00\x00\x00Pwtpt\x00\x00\x01|\x00\x00\x00\x14rXYZ\x00\x00\x01\x90\x00\x00\x00\x14gXYZ\x00\x00\x01\xa4\x00\x00\x00\x14bXYZ\x00\x00\x01\xb8\x00\x00\x00\x14rTRC\x00\x00\x01\xcc\x00\x00\x00 chad\x00\x00\x01\xec\x00\x00\x00,bTRC\x00\x00\x01\xcc\x00\x00\x00 gTRC\x00\x00\x01\xcc\x00\x00\x00 mluc\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x0cenUS\x00\x00\x00\x14\x00\x00\x00\x1c\x00D\x00i\x00s\x00p\x00l\x00a\x00y\x00 \x00P\x003mluc\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x0cenUS\x00\x00\x004\x00\x00\x00\x1c\x00C\x00o\x00p\x00y\x00r\x00i\x00g\x00h\x00t\x00 \x00A\x00p\x00p\x00l\x00e\x00 \x00I\x00n\x00c\x00.\x00,\x00 \x002\x000\x002\x002XYZ \x00\x00\x00\x00\x00\x00\xf6\xd5\x00\x01\x00\x00\x00\x00\xd3,XYZ \x00\x00\x00\x00\x00\x00\x83\xdf\x00\x00=\xbf\xff\xff\xff\xbbXYZ \x00\x00\x00\x00\x00\x00J\xbf\x00\x00\xb17\x00\x00\n\xb9XYZ \x00\x00\x00\x00\x00\x00(8\x00\x00\x11\x0b\x00\x00\xc8\xb9para\x00\x00\x00\x00\x00\x03\x00\x00\x00\x02ff\x00\x00\xf2\xa7\x00\x00\rY\x00\x00\x13\xd0\x00\x00\n[sf32\x00\x00\x00\x00\x00\x01\x0cB\x00\x00\x05\xde\xff\xff\xf3&\x00\x00\x07\x93\x00\x00\xfd\x90\xff\xff\xfb\xa2\xff\xff\xfd\xa3\x00\x00\x03\xdc\x00\x00\xc0n'}}]
+Getting thumbnail for file [recipes/a6c1246171e02e7a68290aefa840746a.jpg] at [400x200]
+Creating thumbnail file [cache/7c/2c/7c2c948ab556d0f54baa657f5bc76a39.jpg] at [400x200] with [{'crop': 'center', 'format': 'JPEG', 'quality': 95, 'colorspace': 'RGB', 'upscale': True, 'cropbox': None, 'rounded': None, 'padding': False, 'padding_color': '#ffffff', 'image_info': {'jfif': 257, 'jfif_version': (1, 1), 'jfif_unit': 0, 'jfif_density': (1, 1), 'progressive': 1, 'progression': 1}}]
+Getting thumbnail for file [recipes/6549ee0c5a1e16ab2c04afc049a79d72.jpg] at [400x200]
+Creating thumbnail file [cache/87/2d/872d9b46626e4c9f9bfd247d07b05727.jpg] at [400x200] with [{'crop': 'center', 'format': 'JPEG', 'quality': 95, 'colorspace': 'RGB', 'upscale': True, 'cropbox': None, 'rounded': None, 'padding': False, 'padding_color': '#ffffff', 'image_info': {'jfif': 257, 'jfif_version': (1, 1), 'jfif_unit': 0, 'jfif_density': (1, 1), 'progressive': 1, 'progression': 1, 'icc_profile': b'\x00\x00\x02\x18appl\x04\x00\x00\x00mntrRGB XYZ \x07\xe6\x00\x01\x00\x01\x00\x00\x00\x00\x00\x00acspAPPL\x00\x00\x00\x00APPL\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xf6\xd6\x00\x01\x00\x00\x00\x00\xd3-appl\xec\xfd\xa3\x8e8\x85G\xc3m\xb4\xbdOz\xda\x18/\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\ndesc\x00\x00\x00\xfc\x00\x00\x000cprt\x00\x00\x01,\x00\x00\x00Pwtpt\x00\x00\x01|\x00\x00\x00\x14rXYZ\x00\x00\x01\x90\x00\x00\x00\x14gXYZ\x00\x00\x01\xa4\x00\x00\x00\x14bXYZ\x00\x00\x01\xb8\x00\x00\x00\x14rTRC\x00\x00\x01\xcc\x00\x00\x00 chad\x00\x00\x01\xec\x00\x00\x00,bTRC\x00\x00\x01\xcc\x00\x00\x00 gTRC\x00\x00\x01\xcc\x00\x00\x00 mluc\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x0cenUS\x00\x00\x00\x14\x00\x00\x00\x1c\x00D\x00i\x00s\x00p\x00l\x00a\x00y\x00 \x00P\x003mluc\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x0cenUS\x00\x00\x004\x00\x00\x00\x1c\x00C\x00o\x00p\x00y\x00r\x00i\x00g\x00h\x00t\x00 \x00A\x00p\x00p\x00l\x00e\x00 \x00I\x00n\x00c\x00.\x00,\x00 \x002\x000\x002\x002XYZ \x00\x00\x00\x00\x00\x00\xf6\xd5\x00\x01\x00\x00\x00\x00\xd3,XYZ \x00\x00\x00\x00\x00\x00\x83\xdf\x00\x00=\xbf\xff\xff\xff\xbbXYZ \x00\x00\x00\x00\x00\x00J\xbf\x00\x00\xb17\x00\x00\n\xb9XYZ \x00\x00\x00\x00\x00\x00(8\x00\x00\x11\x0b\x00\x00\xc8\xb9para\x00\x00\x00\x00\x00\x03\x00\x00\x00\x02ff\x00\x00\xf2\xa7\x00\x00\rY\x00\x00\x13\xd0\x00\x00\n[sf32\x00\x00\x00\x00\x00\x01\x0cB\x00\x00\x05\xde\xff\xff\xf3&\x00\x00\x07\x93\x00\x00\xfd\x90\xff\xff\xfb\xa2\xff\xff\xfd\xa3\x00\x00\x03\xdc\x00\x00\xc0n'}}]
+Getting thumbnail for file [recipes/6549ee0c5a1e16ab2c04afc049a79d72_diU1OAY.jpg] at [400x200]
+Creating thumbnail file [cache/21/d6/21d605c6973498948d62ba36fd257c31.jpg] at [400x200] with [{'crop': 'center', 'format': 'JPEG', 'quality': 95, 'colorspace': 'RGB', 'upscale': True, 'cropbox': None, 'rounded': None, 'padding': False, 'padding_color': '#ffffff', 'image_info': {'jfif': 257, 'jfif_version': (1, 1), 'jfif_unit': 0, 'jfif_density': (1, 1), 'progressive': 1, 'progression': 1, 'icc_profile': b'\x00\x00\x02\x18appl\x04\x00\x00\x00mntrRGB XYZ \x07\xe6\x00\x01\x00\x01\x00\x00\x00\x00\x00\x00acspAPPL\x00\x00\x00\x00APPL\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xf6\xd6\x00\x01\x00\x00\x00\x00\xd3-appl\xec\xfd\xa3\x8e8\x85G\xc3m\xb4\xbdOz\xda\x18/\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\ndesc\x00\x00\x00\xfc\x00\x00\x000cprt\x00\x00\x01,\x00\x00\x00Pwtpt\x00\x00\x01|\x00\x00\x00\x14rXYZ\x00\x00\x01\x90\x00\x00\x00\x14gXYZ\x00\x00\x01\xa4\x00\x00\x00\x14bXYZ\x00\x00\x01\xb8\x00\x00\x00\x14rTRC\x00\x00\x01\xcc\x00\x00\x00 chad\x00\x00\x01\xec\x00\x00\x00,bTRC\x00\x00\x01\xcc\x00\x00\x00 gTRC\x00\x00\x01\xcc\x00\x00\x00 mluc\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x0cenUS\x00\x00\x00\x14\x00\x00\x00\x1c\x00D\x00i\x00s\x00p\x00l\x00a\x00y\x00 \x00P\x003mluc\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x0cenUS\x00\x00\x004\x00\x00\x00\x1c\x00C\x00o\x00p\x00y\x00r\x00i\x00g\x00h\x00t\x00 \x00A\x00p\x00p\x00l\x00e\x00 \x00I\x00n\x00c\x00.\x00,\x00 \x002\x000\x002\x002XYZ \x00\x00\x00\x00\x00\x00\xf6\xd5\x00\x01\x00\x00\x00\x00\xd3,XYZ \x00\x00\x00\x00\x00\x00\x83\xdf\x00\x00=\xbf\xff\xff\xff\xbbXYZ \x00\x00\x00\x00\x00\x00J\xbf\x00\x00\xb17\x00\x00\n\xb9XYZ \x00\x00\x00\x00\x00\x00(8\x00\x00\x11\x0b\x00\x00\xc8\xb9para\x00\x00\x00\x00\x00\x03\x00\x00\x00\x02ff\x00\x00\xf2\xa7\x00\x00\rY\x00\x00\x13\xd0\x00\x00\n[sf32\x00\x00\x00\x00\x00\x01\x0cB\x00\x00\x05\xde\xff\xff\xf3&\x00\x00\x07\x93\x00\x00\xfd\x90\xff\xff\xfb\xa2\xff\xff\xfd\xa3\x00\x00\x03\xdc\x00\x00\xc0n'}}]
+Getting thumbnail for file [recipes/a6c1246171e02e7a68290aefa840746a_gsEqS6r.jpg] at [400x200]
+Creating thumbnail file [cache/4d/64/4d6437e8ad73c24279397812c3fe74bf.jpg] at [400x200] with [{'crop': 'center', 'format': 'JPEG', 'quality': 95, 'colorspace': 'RGB', 'upscale': True, 'cropbox': None, 'rounded': None, 'padding': False, 'padding_color': '#ffffff', 'image_info': {'jfif': 257, 'jfif_version': (1, 1), 'jfif_unit': 0, 'jfif_density': (1, 1), 'progressive': 1, 'progression': 1}}]
+Getting thumbnail for file [recipes/EASY-Chana-Masala-SQUARE.jpg] at [400x200]
+Not Found: /author/1/js/scripts.js
+Getting thumbnail for file [recipes/a0aad03b8487a1b6a87b9646cd0d939e.jpg] at [800x300]
+Creating thumbnail file [cache/12/f7/12f7a864650b3e79255b849e7a89d7f1.jpg] at [800x300] with [{'crop': 'center', 'format': 'JPEG', 'quality': 95, 'colorspace': 'RGB', 'upscale': True, 'cropbox': None, 'rounded': None, 'padding': False, 'padding_color': '#ffffff', 'image_info': {'jfif': 257, 'jfif_version': (1, 1), 'jfif_unit': 0, 'jfif_density': (1, 1), 'progressive': 1, 'progression': 1, 'icc_profile': b'\x00\x00\x02\x18appl\x04\x00\x00\x00mntrRGB XYZ \x07\xe6\x00\x01\x00\x01\x00\x00\x00\x00\x00\x00acspAPPL\x00\x00\x00\x00APPL\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xf6\xd6\x00\x01\x00\x00\x00\x00\xd3-appl\xec\xfd\xa3\x8e8\x85G\xc3m\xb4\xbdOz\xda\x18/\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\ndesc\x00\x00\x00\xfc\x00\x00\x000cprt\x00\x00\x01,\x00\x00\x00Pwtpt\x00\x00\x01|\x00\x00\x00\x14rXYZ\x00\x00\x01\x90\x00\x00\x00\x14gXYZ\x00\x00\x01\xa4\x00\x00\x00\x14bXYZ\x00\x00\x01\xb8\x00\x00\x00\x14rTRC\x00\x00\x01\xcc\x00\x00\x00 chad\x00\x00\x01\xec\x00\x00\x00,bTRC\x00\x00\x01\xcc\x00\x00\x00 gTRC\x00\x00\x01\xcc\x00\x00\x00 mluc\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x0cenUS\x00\x00\x00\x14\x00\x00\x00\x1c\x00D\x00i\x00s\x00p\x00l\x00a\x00y\x00 \x00P\x003mluc\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x0cenUS\x00\x00\x004\x00\x00\x00\x1c\x00C\x00o\x00p\x00y\x00r\x00i\x00g\x00h\x00t\x00 \x00A\x00p\x00p\x00l\x00e\x00 \x00I\x00n\x00c\x00.\x00,\x00 \x002\x000\x002\x002XYZ \x00\x00\x00\x00\x00\x00\xf6\xd5\x00\x01\x00\x00\x00\x00\xd3,XYZ \x00\x00\x00\x00\x00\x00\x83\xdf\x00\x00=\xbf\xff\xff\xff\xbbXYZ \x00\x00\x00\x00\x00\x00J\xbf\x00\x00\xb17\x00\x00\n\xb9XYZ \x00\x00\x00\x00\x00\x00(8\x00\x00\x11\x0b\x00\x00\xc8\xb9para\x00\x00\x00\x00\x00\x03\x00\x00\x00\x02ff\x00\x00\xf2\xa7\x00\x00\rY\x00\x00\x13\xd0\x00\x00\n[sf32\x00\x00\x00\x00\x00\x01\x0cB\x00\x00\x05\xde\xff\xff\xf3&\x00\x00\x07\x93\x00\x00\xfd\x90\xff\xff\xfb\xa2\xff\xff\xfd\xa3\x00\x00\x03\xdc\x00\x00\xc0n'}}]
+Not Found: /recipe/20/js/scripts.js
+/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/recipes/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/recipes/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Getting thumbnail for file [recipes/a0aad03b8487a1b6a87b9646cd0d939e.jpg] at [400x300]
+Getting thumbnail for file [recipes/eca705677fa1210022584fa81e755b97.jpg] at [400x300]
+Getting thumbnail for file [recipes/a6c1246171e02e7a68290aefa840746a.jpg] at [400x300]
+Getting thumbnail for file [recipes/6549ee0c5a1e16ab2c04afc049a79d72.jpg] at [400x300]
+Getting thumbnail for file [recipes/6549ee0c5a1e16ab2c04afc049a79d72_diU1OAY.jpg] at [400x300]
+Getting thumbnail for file [recipes/a6c1246171e02e7a68290aefa840746a_gsEqS6r.jpg] at [400x300]
+Not Found: /js/scripts.js
+Getting thumbnail for file [recipes/eca705677fa1210022584fa81e755b97.jpg] at [400x300]
+Getting thumbnail for file [recipes/6549ee0c5a1e16ab2c04afc049a79d72.jpg] at [400x300]
+Not Found: /js/scripts.js
+Getting thumbnail for file [recipes/a0aad03b8487a1b6a87b9646cd0d939e.jpg] at [400x300]
+Getting thumbnail for file [recipes/eca705677fa1210022584fa81e755b97.jpg] at [400x300]
+Getting thumbnail for file [recipes/a6c1246171e02e7a68290aefa840746a.jpg] at [400x300]
+Getting thumbnail for file [recipes/6549ee0c5a1e16ab2c04afc049a79d72.jpg] at [400x300]
+Getting thumbnail for file [recipes/6549ee0c5a1e16ab2c04afc049a79d72_diU1OAY.jpg] at [400x300]
+Getting thumbnail for file [recipes/a6c1246171e02e7a68290aefa840746a_gsEqS6r.jpg] at [400x300]
+Not Found: /js/scripts.js
+Not Found: /js/scripts.js
+Getting thumbnail for file [recipes/eca705677fa1210022584fa81e755b97.jpg] at [800x300]
+Creating thumbnail file [cache/23/6c/236ca7916057150633943d654c024d5c.jpg] at [800x300] with [{'crop': 'center', 'format': 'JPEG', 'quality': 95, 'colorspace': 'RGB', 'upscale': True, 'cropbox': None, 'rounded': None, 'padding': False, 'padding_color': '#ffffff', 'image_info': {'jfif': 257, 'jfif_version': (1, 1), 'jfif_unit': 0, 'jfif_density': (1, 1), 'progressive': 1, 'progression': 1, 'icc_profile': b'\x00\x00\x02\x18appl\x04\x00\x00\x00mntrRGB XYZ \x07\xe6\x00\x01\x00\x01\x00\x00\x00\x00\x00\x00acspAPPL\x00\x00\x00\x00APPL\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xf6\xd6\x00\x01\x00\x00\x00\x00\xd3-appl\xec\xfd\xa3\x8e8\x85G\xc3m\xb4\xbdOz\xda\x18/\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\ndesc\x00\x00\x00\xfc\x00\x00\x000cprt\x00\x00\x01,\x00\x00\x00Pwtpt\x00\x00\x01|\x00\x00\x00\x14rXYZ\x00\x00\x01\x90\x00\x00\x00\x14gXYZ\x00\x00\x01\xa4\x00\x00\x00\x14bXYZ\x00\x00\x01\xb8\x00\x00\x00\x14rTRC\x00\x00\x01\xcc\x00\x00\x00 chad\x00\x00\x01\xec\x00\x00\x00,bTRC\x00\x00\x01\xcc\x00\x00\x00 gTRC\x00\x00\x01\xcc\x00\x00\x00 mluc\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x0cenUS\x00\x00\x00\x14\x00\x00\x00\x1c\x00D\x00i\x00s\x00p\x00l\x00a\x00y\x00 \x00P\x003mluc\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x0cenUS\x00\x00\x004\x00\x00\x00\x1c\x00C\x00o\x00p\x00y\x00r\x00i\x00g\x00h\x00t\x00 \x00A\x00p\x00p\x00l\x00e\x00 \x00I\x00n\x00c\x00.\x00,\x00 \x002\x000\x002\x002XYZ \x00\x00\x00\x00\x00\x00\xf6\xd5\x00\x01\x00\x00\x00\x00\xd3,XYZ \x00\x00\x00\x00\x00\x00\x83\xdf\x00\x00=\xbf\xff\xff\xff\xbbXYZ \x00\x00\x00\x00\x00\x00J\xbf\x00\x00\xb17\x00\x00\n\xb9XYZ \x00\x00\x00\x00\x00\x00(8\x00\x00\x11\x0b\x00\x00\xc8\xb9para\x00\x00\x00\x00\x00\x03\x00\x00\x00\x02ff\x00\x00\xf2\xa7\x00\x00\rY\x00\x00\x13\xd0\x00\x00\n[sf32\x00\x00\x00\x00\x00\x01\x0cB\x00\x00\x05\xde\xff\xff\xf3&\x00\x00\x07\x93\x00\x00\xfd\x90\xff\xff\xfb\xa2\xff\xff\xfd\xa3\x00\x00\x03\xdc\x00\x00\xc0n'}}]
+Not Found: /recipe/25/js/scripts.js
+/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/recipes/views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /recipe/25/js/scripts.js
+/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/recipes/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/recipes/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/recipes/views.py changed, reloading.
+Watching for file changes with StatReloader
+Getting thumbnail for file [recipes/a0aad03b8487a1b6a87b9646cd0d939e.jpg] at [400x300]
+Getting thumbnail for file [recipes/eca705677fa1210022584fa81e755b97.jpg] at [400x300]
+Getting thumbnail for file [recipes/a6c1246171e02e7a68290aefa840746a.jpg] at [400x300]
+Getting thumbnail for file [recipes/6549ee0c5a1e16ab2c04afc049a79d72.jpg] at [400x300]
+Getting thumbnail for file [recipes/6549ee0c5a1e16ab2c04afc049a79d72_diU1OAY.jpg] at [400x300]
+Getting thumbnail for file [recipes/a6c1246171e02e7a68290aefa840746a_gsEqS6r.jpg] at [400x300]
+Not Found: /js/scripts.js
+Getting thumbnail for file [recipes/eca705677fa1210022584fa81e755b97.jpg] at [400x300]
+Getting thumbnail for file [recipes/6549ee0c5a1e16ab2c04afc049a79d72.jpg] at [400x300]
+Not Found: /js/scripts.js
+Getting thumbnail for file [recipes/eca705677fa1210022584fa81e755b97.jpg] at [800x300]
+Not Found: /recipe/25/js/scripts.js
+Getting thumbnail for file [recipes/a0aad03b8487a1b6a87b9646cd0d939e.jpg] at [400x300]
+Getting thumbnail for file [recipes/eca705677fa1210022584fa81e755b97.jpg] at [400x300]
+Getting thumbnail for file [recipes/a6c1246171e02e7a68290aefa840746a.jpg] at [400x300]
+Getting thumbnail for file [recipes/6549ee0c5a1e16ab2c04afc049a79d72.jpg] at [400x300]
+Getting thumbnail for file [recipes/6549ee0c5a1e16ab2c04afc049a79d72_diU1OAY.jpg] at [400x300]
+Getting thumbnail for file [recipes/a6c1246171e02e7a68290aefa840746a_gsEqS6r.jpg] at [400x300]
+Not Found: /js/scripts.js
+Getting thumbnail for file [recipes/eca705677fa1210022584fa81e755b97.jpg] at [800x300]
+Not Found: /recipe/25/js/scripts.js
+/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/recipes/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/recipes/forms.py changed, reloading.
+Watching for file changes with StatReloader
+Getting thumbnail for file [recipes/a0aad03b8487a1b6a87b9646cd0d939e.jpg] at [400x300]
+Getting thumbnail for file [recipes/eca705677fa1210022584fa81e755b97.jpg] at [400x300]
+Getting thumbnail for file [recipes/a6c1246171e02e7a68290aefa840746a.jpg] at [400x300]
+Getting thumbnail for file [recipes/6549ee0c5a1e16ab2c04afc049a79d72.jpg] at [400x300]
+Getting thumbnail for file [recipes/6549ee0c5a1e16ab2c04afc049a79d72_diU1OAY.jpg] at [400x300]
+Getting thumbnail for file [recipes/a6c1246171e02e7a68290aefa840746a_gsEqS6r.jpg] at [400x300]
+Not Found: /js/scripts.js
+Getting thumbnail for file [recipes/eca705677fa1210022584fa81e755b97.jpg] at [800x300]
+Not Found: /recipe/25/js/scripts.js
+/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/recipes/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/recipes/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/recipes/views.py changed, reloading.
+Watching for file changes with StatReloader
+Getting thumbnail for file [recipes/a0aad03b8487a1b6a87b9646cd0d939e.jpg] at [400x300]
+Getting thumbnail for file [recipes/eca705677fa1210022584fa81e755b97.jpg] at [400x300]
+Getting thumbnail for file [recipes/a6c1246171e02e7a68290aefa840746a.jpg] at [400x300]
+Getting thumbnail for file [recipes/6549ee0c5a1e16ab2c04afc049a79d72.jpg] at [400x300]
+Getting thumbnail for file [recipes/6549ee0c5a1e16ab2c04afc049a79d72_diU1OAY.jpg] at [400x300]
+Getting thumbnail for file [recipes/a6c1246171e02e7a68290aefa840746a_gsEqS6r.jpg] at [400x300]
+Not Found: /js/scripts.js
+Getting thumbnail for file [recipes/eca705677fa1210022584fa81e755b97.jpg] at [800x300]
+Not Found: /recipe/25/js/scripts.js
+/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/recipes/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/recipes/models.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/recipes/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Getting thumbnail for file [recipes/eca705677fa1210022584fa81e755b97.jpg] at [800x300]
+Not Found: /recipe/25/js/scripts.js
+/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/recipes/forms.py changed, reloading.
+Watching for file changes with StatReloader
+Getting thumbnail for file [recipes/a0aad03b8487a1b6a87b9646cd0d939e.jpg] at [400x300]
+Getting thumbnail for file [recipes/eca705677fa1210022584fa81e755b97.jpg] at [400x300]
+Getting thumbnail for file [recipes/a6c1246171e02e7a68290aefa840746a.jpg] at [400x300]
+Getting thumbnail for file [recipes/6549ee0c5a1e16ab2c04afc049a79d72.jpg] at [400x300]
+Getting thumbnail for file [recipes/6549ee0c5a1e16ab2c04afc049a79d72_diU1OAY.jpg] at [400x300]
+Getting thumbnail for file [recipes/a6c1246171e02e7a68290aefa840746a_gsEqS6r.jpg] at [400x300]
+Not Found: /js/scripts.js
+Getting thumbnail for file [recipes/eca705677fa1210022584fa81e755b97.jpg] at [800x300]
+Not Found: /recipe/25/js/scripts.js
+Getting thumbnail for file [recipes/a0aad03b8487a1b6a87b9646cd0d939e.jpg] at [400x300]
+Getting thumbnail for file [recipes/eca705677fa1210022584fa81e755b97.jpg] at [400x300]
+Getting thumbnail for file [recipes/a6c1246171e02e7a68290aefa840746a.jpg] at [400x300]
+Getting thumbnail for file [recipes/6549ee0c5a1e16ab2c04afc049a79d72.jpg] at [400x300]
+Getting thumbnail for file [recipes/6549ee0c5a1e16ab2c04afc049a79d72_diU1OAY.jpg] at [400x300]
+Getting thumbnail for file [recipes/a6c1246171e02e7a68290aefa840746a_gsEqS6r.jpg] at [400x300]
+Not Found: /js/scripts.js
+Getting thumbnail for file [recipes/eca705677fa1210022584fa81e755b97.jpg] at [800x300]
+Not Found: /recipe/25/js/scripts.js
+Getting thumbnail for file [recipes/a0aad03b8487a1b6a87b9646cd0d939e.jpg] at [400x300]
+Getting thumbnail for file [recipes/eca705677fa1210022584fa81e755b97.jpg] at [400x300]
+Getting thumbnail for file [recipes/a6c1246171e02e7a68290aefa840746a.jpg] at [400x300]
+Getting thumbnail for file [recipes/6549ee0c5a1e16ab2c04afc049a79d72.jpg] at [400x300]
+Getting thumbnail for file [recipes/6549ee0c5a1e16ab2c04afc049a79d72_diU1OAY.jpg] at [400x300]
+Getting thumbnail for file [recipes/a6c1246171e02e7a68290aefa840746a_gsEqS6r.jpg] at [400x300]
+Not Found: /js/scripts.js
+Getting thumbnail for file [recipes/eca705677fa1210022584fa81e755b97.jpg] at [800x300]
+Not Found: /recipe/25/js/scripts.js
+Getting thumbnail for file [recipes/a0aad03b8487a1b6a87b9646cd0d939e.jpg] at [400x300]
+Getting thumbnail for file [recipes/eca705677fa1210022584fa81e755b97.jpg] at [400x300]
+Getting thumbnail for file [recipes/a6c1246171e02e7a68290aefa840746a.jpg] at [400x300]
+Getting thumbnail for file [recipes/6549ee0c5a1e16ab2c04afc049a79d72.jpg] at [400x300]
+Getting thumbnail for file [recipes/6549ee0c5a1e16ab2c04afc049a79d72_diU1OAY.jpg] at [400x300]
+Getting thumbnail for file [recipes/a6c1246171e02e7a68290aefa840746a_gsEqS6r.jpg] at [400x300]
+Not Found: /js/scripts.js
+Getting thumbnail for file [recipes/eca705677fa1210022584fa81e755b97.jpg] at [800x300]
+Not Found: /recipe/25/js/scripts.js
+Getting thumbnail for file [recipes/eca705677fa1210022584fa81e755b97.jpg] at [800x300]
+Not Found: /recipe/25/js/scripts.js
+Getting thumbnail for file [recipes/a0aad03b8487a1b6a87b9646cd0d939e.jpg] at [400x300]
+Getting thumbnail for file [recipes/eca705677fa1210022584fa81e755b97.jpg] at [400x300]
+Getting thumbnail for file [recipes/a6c1246171e02e7a68290aefa840746a.jpg] at [400x300]
+Getting thumbnail for file [recipes/6549ee0c5a1e16ab2c04afc049a79d72.jpg] at [400x300]
+Getting thumbnail for file [recipes/6549ee0c5a1e16ab2c04afc049a79d72_diU1OAY.jpg] at [400x300]
+Getting thumbnail for file [recipes/a6c1246171e02e7a68290aefa840746a_gsEqS6r.jpg] at [400x300]
+Not Found: /js/scripts.js
+Getting thumbnail for file [recipes/eca705677fa1210022584fa81e755b97.jpg] at [800x300]
+Not Found: /recipe/25/js/scripts.js
+/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/recipes/forms.py changed, reloading.
+Watching for file changes with StatReloader
+Getting thumbnail for file [recipes/eca705677fa1210022584fa81e755b97.jpg] at [800x300]
+Not Found: /recipe/25/js/scripts.js
+Getting thumbnail for file [recipes/a0aad03b8487a1b6a87b9646cd0d939e.jpg] at [400x300]
+Getting thumbnail for file [recipes/eca705677fa1210022584fa81e755b97.jpg] at [400x300]
+Getting thumbnail for file [recipes/a6c1246171e02e7a68290aefa840746a.jpg] at [400x300]
+Getting thumbnail for file [recipes/6549ee0c5a1e16ab2c04afc049a79d72.jpg] at [400x300]
+Getting thumbnail for file [recipes/6549ee0c5a1e16ab2c04afc049a79d72_diU1OAY.jpg] at [400x300]
+Getting thumbnail for file [recipes/a6c1246171e02e7a68290aefa840746a_gsEqS6r.jpg] at [400x300]
+Not Found: /js/scripts.js
+Getting thumbnail for file [recipes/eca705677fa1210022584fa81e755b97.jpg] at [800x300]
+Not Found: /recipe/25/js/scripts.js
+/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/recipes/fields.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/recipes/fields.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/tarabrown/Sandbox/classes/CSCI_258/ChefMaster/recipes/forms.py changed, reloading.
+Watching for file changes with StatReloader
+Getting thumbnail for file [recipes/a0aad03b8487a1b6a87b9646cd0d939e.jpg] at [400x300]
+Getting thumbnail for file [recipes/eca705677fa1210022584fa81e755b97.jpg] at [400x300]
+Getting thumbnail for file [recipes/a6c1246171e02e7a68290aefa840746a.jpg] at [400x300]
+Getting thumbnail for file [recipes/6549ee0c5a1e16ab2c04afc049a79d72.jpg] at [400x300]
+Getting thumbnail for file [recipes/6549ee0c5a1e16ab2c04afc049a79d72_diU1OAY.jpg] at [400x300]
+Getting thumbnail for file [recipes/a6c1246171e02e7a68290aefa840746a_gsEqS6r.jpg] at [400x300]
+Not Found: /js/scripts.js
+Getting thumbnail for file [recipes/a6c1246171e02e7a68290aefa840746a_gsEqS6r.jpg] at [800x300]
+Creating thumbnail file [cache/be/c8/bec8c02d41a93e9ba926704dc42fc213.jpg] at [800x300] with [{'crop': 'center', 'format': 'JPEG', 'quality': 95, 'colorspace': 'RGB', 'upscale': True, 'cropbox': None, 'rounded': None, 'padding': False, 'padding_color': '#ffffff', 'image_info': {'jfif': 257, 'jfif_version': (1, 1), 'jfif_unit': 0, 'jfif_density': (1, 1), 'progressive': 1, 'progression': 1}}]
+Not Found: /recipe/29/js/scripts.js
+Getting thumbnail for file [recipes/a0aad03b8487a1b6a87b9646cd0d939e.jpg] at [400x300]
+Getting thumbnail for file [recipes/eca705677fa1210022584fa81e755b97.jpg] at [400x300]
+Getting thumbnail for file [recipes/a6c1246171e02e7a68290aefa840746a.jpg] at [400x300]
+Getting thumbnail for file [recipes/6549ee0c5a1e16ab2c04afc049a79d72.jpg] at [400x300]
+Getting thumbnail for file [recipes/6549ee0c5a1e16ab2c04afc049a79d72_diU1OAY.jpg] at [400x300]
+Getting thumbnail for file [recipes/a6c1246171e02e7a68290aefa840746a_gsEqS6r.jpg] at [400x300]
+Not Found: /js/scripts.js
+Getting thumbnail for file [recipes/eca705677fa1210022584fa81e755b97.jpg] at [800x300]
+Not Found: /recipe/25/js/scripts.js
+Getting thumbnail for file [recipes/a0aad03b8487a1b6a87b9646cd0d939e.jpg] at [400x300]
+Getting thumbnail for file [recipes/eca705677fa1210022584fa81e755b97.jpg] at [400x300]
+Getting thumbnail for file [recipes/a6c1246171e02e7a68290aefa840746a.jpg] at [400x300]
+Getting thumbnail for file [recipes/6549ee0c5a1e16ab2c04afc049a79d72.jpg] at [400x300]
+Getting thumbnail for file [recipes/6549ee0c5a1e16ab2c04afc049a79d72_diU1OAY.jpg] at [400x300]
+Getting thumbnail for file [recipes/a6c1246171e02e7a68290aefa840746a_gsEqS6r.jpg] at [400x300]
+Not Found: /js/scripts.js
+Getting thumbnail for file [recipes/eca705677fa1210022584fa81e755b97.jpg] at [800x300]
+Not Found: /recipe/25/js/scripts.js
+Getting thumbnail for file [recipes/a0aad03b8487a1b6a87b9646cd0d939e.jpg] at [400x200]
+Getting thumbnail for file [recipes/eca705677fa1210022584fa81e755b97.jpg] at [400x200]
+Getting thumbnail for file [recipes/a6c1246171e02e7a68290aefa840746a.jpg] at [400x200]
+Getting thumbnail for file [recipes/6549ee0c5a1e16ab2c04afc049a79d72.jpg] at [400x200]
+Getting thumbnail for file [recipes/6549ee0c5a1e16ab2c04afc049a79d72_diU1OAY.jpg] at [400x200]
+Getting thumbnail for file [recipes/a6c1246171e02e7a68290aefa840746a_gsEqS6r.jpg] at [400x200]
+Getting thumbnail for file [recipes/EASY-Chana-Masala-SQUARE.jpg] at [400x200]
+Not Found: /author/1/js/scripts.js

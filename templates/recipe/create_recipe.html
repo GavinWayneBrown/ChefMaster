@@ -34,15 +34,7 @@
 
 
     <script>
-
-    // Add this temporarily at the start of your script section
-document.addEventListener('DOMContentLoaded', function() {
-    // Log all form input names
-    document.querySelectorAll('input[type="hidden"]').forEach(input => {
-        console.log('Input name:', input.name);
-    });
-});
- console.log('')
+ 
         document.getElementById('add-instruction').addEventListener('click', function() {
     // Get the total forms input
     var totalFormsInput = document.querySelector('input[name$=TOTAL_FORMS]');

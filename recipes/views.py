@@ -5,6 +5,8 @@ from .forms import (
     IngredientForm,
     InstructionFormSet,
     IngredientFormSet,
+    InstructionFormSetEdit, 
+    IngredientFormSetEdit,
     CommentForm,
 )
 from django.views.generic.edit import UpdateView, DeleteView
@@ -50,20 +52,44 @@ class HomePageView(TemplateView):
         context["recipe_list"] = Recipe.objects.all()
         return context
 
+# views.py
+
+from django.shortcuts import render, redirect, get_object_or_404
+from django.urls import reverse_lazy
+from django.views.generic import UpdateView
+from django.contrib.auth.decorators import login_required
+from .models import Recipe, Instruction, Ingredient
+from .forms import RecipeForm, InstructionFormSet, IngredientFormSet
+
 class RecipeUpdateView(UpdateView):
     model = Recipe
-    fields = (           
-        "image",
-        "title",
-        "summary",
-        "prep_time",
-        "cook_time",
-        "total_time",
-        "servings",
-        "categories",
-    )
+    form_class = RecipeForm
     template_name = "recipe_edit.html"
     success_url = reverse_lazy("home")
+
+    def get_context_data(self, **kwargs):
+        data = super().get_context_data(**kwargs)
+        if self.request.POST:
+            data['instruction_formset'] = InstructionFormSetEdit(self.request.POST, instance=self.object)
+            data['ingredient_formset'] = IngredientFormSetEdit(self.request.POST, instance=self.object)
+        else:
+            data['instruction_formset'] = InstructionFormSetEdit(instance=self.object)
+            data['ingredient_formset'] = IngredientFormSetEdit(instance=self.object)
+        return data
+
+    def form_valid(self, form):
+        context = self.get_context_data()
+        instruction_formset = context['instruction_formset']
+        ingredient_formset = context['ingredient_formset']
+        if instruction_formset.is_valid() and ingredient_formset.is_valid():
+            self.object = form.save()
+            instruction_formset.instance = self.object
+            ingredient_formset.instance = self.object
+            instruction_formset.save()
+            ingredient_formset.save()
+            return redirect(self.get_success_url())
+        else:
+            return self.render_to_response(self.get_context_data(form=form))
 
     def get_form_kwargs(self):
         kwargs = super().get_form_kwargs()
@@ -72,10 +98,6 @@ class RecipeUpdateView(UpdateView):
                 'files': self.request.FILES
             })
         return kwargs
-
-    def form_valid(self, form):
-        # If a new file is uploaded, the old one will be replaced automatically
-        return super().form_valid(form)
 
 class RecipeDeleteView(DeleteView): 
     model = Recipe
