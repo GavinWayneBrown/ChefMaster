@@ -58,4 +58,7 @@
         totalFormsInput.value = formIdx + 1;
     });
 
-    
+    document.getElementById("button-search").addEventListener("click", function () {
+        const query = document.querySelector('input[name="q"]').value;
+        window.location.href = `?q=${encodeURIComponent(query)}`;
+    });
