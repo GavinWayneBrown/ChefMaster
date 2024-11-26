@@ -63,6 +63,7 @@ INSTALLED_APPS = [
     "chefs",
     "sorl.thumbnail",
     "hitcount",
+    "star_ratings",
 ]
 
 MEDIA_URL = "/media/"
@@ -173,3 +174,6 @@ AUTH_USER_MODEL = "chefs.CustomUser"
 CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap4"
 
 CRISPY_TEMPLATE_PACK = "bootstrap4"
+
+STAR_RATINGS_STAR_HEIGHT = 20  
+STAR_RATINGS_STAR_WIDTH = 20 

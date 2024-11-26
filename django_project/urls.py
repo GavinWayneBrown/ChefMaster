@@ -24,6 +24,7 @@ urlpatterns = [
     path("chefs/", include("chefs.urls")),
     path("chefs/", include("django.contrib.auth.urls")),
     path("", include("recipes.urls")),
+    path('ratings/', include('star_ratings.urls', namespace='ratings')),
 
 ]
 

@@ -4,6 +4,7 @@ from django.conf import settings
 from sorl.thumbnail import ImageField
 from hitcount.models import HitCountMixin, HitCount
 from django.contrib.contenttypes.fields import GenericRelation
+from star_ratings.models import Rating
 
 
 # Create your models here.
@@ -23,6 +24,7 @@ class Recipe(models.Model, HitCountMixin):
     hit_count_generic = GenericRelation(
         HitCount, object_id_field="object_pk", related_query_name="hit_count_generic"
     )
+    ratings = GenericRelation(Rating, related_query_name='recipe_ratings')
 
     def __str__(self):
         return self.title

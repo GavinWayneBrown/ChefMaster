@@ -2,9 +2,11 @@
 {% load static %}
 {% load custom_filters %}
 {% load crispy_forms_tags %}
+{% load ratings %}
 {% load tz %}
 {% block title %}Detail Recipe{% endblock title %}
 {% block content %}
+
 
         <!-- Page content-->
         <div class="container mt-5">
@@ -16,6 +18,9 @@
                         <header class="mb-4">
                             <!-- Post title-->
                             <h1 class="fw-bolder mb-1">{{recipe.title}}</h1>
+                            <div class="recipe-rating mb-3">
+                                {% ratings recipe %}
+                            </div>
                             <!-- Post meta content-->
                             <div class="text-muted fst-italic mb-2">Posted on {{ recipe.date|localtime }} by <a href="{% url 'recipes_by_author' author_id=recipe.author.pk %}">{{ recipe.author.username }}</a></p>
                                 </div>
@@ -87,7 +92,12 @@
                                             <img class="rounded-circle" src="https://dummyimage.com/50x50/ced4da/6c757d.jpg" alt="..." />
                                         </div>
                                         <div class="ms-3">
-                                            <div class="fw-bold">{{ comment.author.username }}</div>
+                                            <div class="fw-bold">
+                                                {{ comment.author.username }}
+                                                {% if comment.rating %}
+                                                    <span class="text-muted">- Rated: {{ comment.rating|floatformat:1 }} / 5.0</span>
+                                                {% endif %}
+                                            </div>
                                             {{ comment.text }}
                                             <div class="text-muted fst-italic">{{ comment.date|localtime|date:"F j, Y, g:i a" }}</div>
                                         </div>
