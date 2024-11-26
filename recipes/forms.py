@@ -30,12 +30,12 @@ class RecipeForm(forms.ModelForm):
             "cook_time",
             "total_time",
             "servings",
-            
+            "categories",
         ]
 
     def __init__(self, *args, **kwargs):
         super(RecipeForm, self).__init__(*args, **kwargs)
-        for field in ['prep_time', 'cook_time', 'total_time']:
+        for field in ["prep_time", "cook_time", "total_time"]:
             if self.instance and getattr(self.instance, field):
                 duration = getattr(self.instance, field)
                 hours, remainder = divmod(duration.total_seconds(), 3600)
@@ -52,7 +52,10 @@ class InstructionForm(forms.ModelForm):
 class IngredientForm(forms.ModelForm):
     class Meta:
         model = Ingredient
-        fields = ["item", "quantity", ]
+        fields = [
+            "item",
+            "quantity",
+        ]
 
 
 class CommentForm(forms.ModelForm):
