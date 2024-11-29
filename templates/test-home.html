@@ -26,6 +26,11 @@
                         <div class="card-body">
                             <div class="small text-muted">{{ recipe.date|localtime }}</div>
                             <h2 class="card-title h4">{{ recipe.title }}</h2>
+                            <div>
+                                {% for category in recipe.categories.all %}
+                                    <a class="badge bg-secondary text-decoration-none link-light" href="#">{{ category.name }}</a>
+                                {% endfor %}
+                            </div>
                             <p class="card-text">{{ recipe.summary }}</p>
                             <p class="card-text">Views: {{ recipe.hit_count.hits }}</p>
                             <a class="btn btn-primary" href="{{ recipe.get_absolute_url }}">Read more →</a>
