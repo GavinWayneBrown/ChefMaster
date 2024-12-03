@@ -29,17 +29,40 @@ from django.conf import settings
 
 def home(request):
     query = request.GET.get('q')
-    if query:
-        recipe_list = Recipe.objects.filter(title__icontains=query)
-    else:
-        recipe_list = Recipe.objects.all()
-    paginator = Paginator(recipe_list, 6)  # 6 posts per page
+    category_name = request.GET.get('category')
+    min_views = request.GET.get('min_views')
+    max_views = request.GET.get('max_views')
+    min_rating = request.GET.get('min_rating')
+    max_rating = request.GET.get('max_rating')
+    sort_by = request.GET.get('sort_by')  # Example: "views" or "-rating"
 
+    # Start with all recipes
+    recipe_list = Recipe.objects.all()
+
+    # Apply filters
+    if query:
+        recipe_list = recipe_list.filter(title__icontains=query)
+    if category_name:
+        recipe_list = recipe_list.filter(categories__name=category_name)
+    if min_views:
+        recipe_list = recipe_list.filter(hit_count_generic__hits__gte=min_views)
+    if max_views:
+        recipe_list = recipe_list.filter(hit_count_generic__hits__lte=max_views)
+    if min_rating:
+        recipe_list = recipe_list.filter(ratings__average__gte=min_rating)
+    if max_rating:
+        recipe_list = recipe_list.filter(ratings__average__lte=max_rating)
+    
+    # Apply sorting
+    if sort_by:
+        recipe_list = recipe_list.order_by(sort_by)
+
+    # Pagination
+    paginator = Paginator(recipe_list, 6)
     page_number = request.GET.get("page")
     page_obj = paginator.get_page(page_number)
 
     return render(request, "test-home.html", {"page_obj": page_obj})
-
 
 @login_required
 
