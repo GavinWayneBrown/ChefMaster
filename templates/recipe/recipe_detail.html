@@ -62,7 +62,7 @@
                             
                         </section>
                     </article>
-                    {% if user.is_authenticated %}
+                    {% if user.is_authenticated and user == recipe.author%}
                     <div>
                         <p>
                             <a class="btn btn-primary" href="{% url 'recipe_edit' recipe.pk %}">Edit</a>
