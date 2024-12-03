@@ -2,6 +2,7 @@
 {% extends "base.html" %}
 {% load static %}
 {% load tz %}
+{% load ratings %}
 {% block title %}Home{% endblock title %}
 {% block content %}
 
@@ -25,6 +26,9 @@
                         {% endthumbnail %}
                         <div class="card-body">
                             <div class="small text-muted">{{ recipe.date|localtime }}</div>
+                            <div class="mb-2">
+                                {% ratings recipe %}
+                            </div>
                             <h2 class="card-title h4">{{ recipe.title }}</h2>
                             <div>
                                 {% for category in recipe.categories.all %}
@@ -116,6 +120,16 @@
 <footer class="py-5 bg-dark">
     <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2023</p></div>
 </footer>
+<style>
+    .star-ratings-rating-average, .star-ratings-rating-count, .star-ratings-rating-user {
+        display: none;
+    }
+</style>
+<style>
+    .star-ratings {
+        pointer-events: none;
+    }
+</style>
 
 <!-- Bootstrap core JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>

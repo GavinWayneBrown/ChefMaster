@@ -1,0 +1,289 @@
+Internal Server Error: /recipe/1/
+Traceback (most recent call last):
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/recipes/views.py", line 180, in recipe_detail
+    return render(
+           ^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'recipes_by_author' with keyword arguments '{'author_id': ''}' not found. 1 pattern(s) tried: ['author/(?P<author_id>[0-9]+)/\\Z']
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Getting thumbnail for file [recipes/EASY-Chana-Masala-SQUARE_xmsjRE4.jpg] at [400x300]
+Getting thumbnail for file [recipes/20231113-SEA-Ghapama-AmandaSuarez-hero2-104723cce1974242b200268a977683d8.jpg] at [400x300]
+Getting thumbnail for file [recipes/EASY-Chana-Masala-SQUARE_xmsjRE4.jpg] at [400x300]
+Getting thumbnail for file [recipes/20231113-SEA-Ghapama-AmandaSuarez-hero2-104723cce1974242b200268a977683d8.jpg] at [400x300]
+Not Found: /js/scripts.js
+Not Found: /js/scripts.js
+Getting thumbnail for file [recipes/20231113-SEA-Ghapama-AmandaSuarez-hero2-104723cce1974242b200268a977683d8.jpg] at [800x300]
+Not Found: /recipe/3/js/scripts.js
+Getting thumbnail for file [recipes/EASY-Chana-Masala-SQUARE_xmsjRE4.jpg] at [400x300]
+Getting thumbnail for file [recipes/20231113-SEA-Ghapama-AmandaSuarez-hero2-104723cce1974242b200268a977683d8.jpg] at [400x300]
+Not Found: /js/scripts.js
+Getting thumbnail for file [recipes/EASY-Chana-Masala-SQUARE_xmsjRE4.jpg] at [800x300]
+Not Found: /recipe/1/js/scripts.js
+Getting thumbnail for file [recipes/EASY-Chana-Masala-SQUARE_xmsjRE4.jpg] at [400x300]
+Getting thumbnail for file [recipes/20231113-SEA-Ghapama-AmandaSuarez-hero2-104723cce1974242b200268a977683d8.jpg] at [400x300]
+Not Found: /js/scripts.js
+Getting thumbnail for file [recipes/EASY-Chana-Masala-SQUARE_xmsjRE4.jpg] at [400x300]
+Getting thumbnail for file [recipes/20231113-SEA-Ghapama-AmandaSuarez-hero2-104723cce1974242b200268a977683d8.jpg] at [400x300]
+Not Found: /js/scripts.js
+Getting thumbnail for file [recipes/EASY-Chana-Masala-SQUARE_xmsjRE4.jpg] at [800x300]
+Not Found: /recipe/1/js/scripts.js
+Getting thumbnail for file [recipes/EASY-Chana-Masala-SQUARE_xmsjRE4.jpg] at [400x300]
+Getting thumbnail for file [recipes/20231113-SEA-Ghapama-AmandaSuarez-hero2-104723cce1974242b200268a977683d8.jpg] at [400x300]
+Not Found: /js/scripts.js
+Getting thumbnail for file [recipes/20231113-SEA-Ghapama-AmandaSuarez-hero2-104723cce1974242b200268a977683d8.jpg] at [800x300]
+Not Found: /recipe/3/js/scripts.js
+Getting thumbnail for file [recipes/EASY-Chana-Masala-SQUARE_xmsjRE4.jpg] at [400x300]
+Getting thumbnail for file [recipes/20231113-SEA-Ghapama-AmandaSuarez-hero2-104723cce1974242b200268a977683d8.jpg] at [400x300]
+Not Found: /js/scripts.js
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'ratings'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/recipes/views.py", line 41, in home
+    return render(request, "test-home.html", {"page_obj": page_obj})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 861, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/base.py", line 555, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 29: 'ratings', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+Getting thumbnail for file [recipes/EASY-Chana-Masala-SQUARE_xmsjRE4.jpg] at [400x300]
+Getting thumbnail for file [recipes/20231113-SEA-Ghapama-AmandaSuarez-hero2-104723cce1974242b200268a977683d8.jpg] at [400x300]
+Not Found: /js/scripts.js
+Getting thumbnail for file [recipes/EASY-Chana-Masala-SQUARE_xmsjRE4.jpg] at [800x300]
+Not Found: /recipe/1/js/scripts.js
+Getting thumbnail for file [recipes/EASY-Chana-Masala-SQUARE_xmsjRE4.jpg] at [400x300]
+Getting thumbnail for file [recipes/20231113-SEA-Ghapama-AmandaSuarez-hero2-104723cce1974242b200268a977683d8.jpg] at [400x300]
+Not Found: /js/scripts.js
+Watching for file changes with StatReloader
+Getting thumbnail for file [recipes/EASY-Chana-Masala-SQUARE_xmsjRE4.jpg] at [400x300]
+Getting thumbnail for file [recipes/20231113-SEA-Ghapama-AmandaSuarez-hero2-104723cce1974242b200268a977683d8.jpg] at [400x300]
+Not Found: /js/scripts.js
+Getting thumbnail for file [recipes/EASY-Chana-Masala-SQUARE_xmsjRE4.jpg] at [400x300]
+Getting thumbnail for file [recipes/20231113-SEA-Ghapama-AmandaSuarez-hero2-104723cce1974242b200268a977683d8.jpg] at [400x300]
+Not Found: /js/scripts.js
+Getting thumbnail for file [recipes/EASY-Chana-Masala-SQUARE_xmsjRE4.jpg] at [400x300]
+Getting thumbnail for file [recipes/20231113-SEA-Ghapama-AmandaSuarez-hero2-104723cce1974242b200268a977683d8.jpg] at [400x300]
+Not Found: /js/scripts.js
+Getting thumbnail for file [recipes/EASY-Chana-Masala-SQUARE_xmsjRE4.jpg] at [800x300]
+Not Found: /recipe/1/js/scripts.js
+Getting thumbnail for file [recipes/EASY-Chana-Masala-SQUARE_xmsjRE4.jpg] at [400x300]
+Getting thumbnail for file [recipes/20231113-SEA-Ghapama-AmandaSuarez-hero2-104723cce1974242b200268a977683d8.jpg] at [400x300]
+Not Found: /js/scripts.js
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/recipes/views.py", line 41, in home
+    return render(request, "test-home.html", {"page_obj": page_obj})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 861, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/library.py", line 130, in compile_func
+    args, kwargs = parse_bits(
+                   ^^^^^^^^^^^
+  File "/Users/gavinbrown/Documents/ChefMaster/.venv/lib/python3.11/site-packages/django/template/library.py", line 320, in parse_bits
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'ratings' received unexpected keyword argument 'readonly'
+Getting thumbnail for file [recipes/EASY-Chana-Masala-SQUARE_xmsjRE4.jpg] at [400x300]
+Getting thumbnail for file [recipes/20231113-SEA-Ghapama-AmandaSuarez-hero2-104723cce1974242b200268a977683d8.jpg] at [400x300]
+Not Found: /js/scripts.js
+Getting thumbnail for file [recipes/EASY-Chana-Masala-SQUARE_xmsjRE4.jpg] at [800x300]
+Not Found: /recipe/1/js/scripts.js
+Getting thumbnail for file [recipes/EASY-Chana-Masala-SQUARE_xmsjRE4.jpg] at [400x300]
+Getting thumbnail for file [recipes/20231113-SEA-Ghapama-AmandaSuarez-hero2-104723cce1974242b200268a977683d8.jpg] at [400x300]
+Not Found: /js/scripts.js
+Getting thumbnail for file [recipes/EASY-Chana-Masala-SQUARE_xmsjRE4.jpg] at [800x300]
+Not Found: /recipe/1/js/scripts.js
