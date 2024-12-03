@@ -29,7 +29,6 @@ FORCE_SCRIPT_NAME = (
     else ""
 )
 
-STATICFILES_DIRS = [BASE_DIR / "static"]
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
@@ -86,7 +85,6 @@ MEDIA_ROOT = BASE_DIR / "media"
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "whitenoise.middleware.WhiteNoiseMiddleware",
-    "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
@@ -117,7 +115,10 @@ TEMPLATES = [
 
 WSGI_APPLICATION = "django_project.wsgi.application"
 
-
+INTERNAL_IPS = [
+    "127.0.0.1",
+    "localhost",
+]
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
@@ -160,22 +161,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-INTERNAL_IPS = [
-    "127.0.0.1",
-    "localhost",
-]
-
-TESTING = "test" in sys.argv
-
-if not TESTING:
-    INSTALLED_APPS = [
-        *INSTALLED_APPS,
-        "debug_toolbar",
-    ]
-
-
-LOGIN_REDIRECT_URL = "home"
-LOGOUT_REDIRECT_URL = "home"
 
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
@@ -206,6 +191,8 @@ STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 AUTH_USER_MODEL = "chefs.CustomUser"
+LOGIN_REDIRECT_URL = "home"
+LOGOUT_REDIRECT_URL = "home"
 
 CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap4"
 
