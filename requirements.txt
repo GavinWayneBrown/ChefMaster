@@ -20,6 +20,7 @@ packaging==24.2
 pathspec==0.12.1
 pillow==11.0.0
 platformdirs==4.3.6
+psycopg2-binary==2.9.10
 python-dateutil==2.9.0.post0
 python-dotenv==1.0.1
 six==1.16.0

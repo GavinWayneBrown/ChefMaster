@@ -77,6 +77,7 @@ INSTALLED_APPS = [
     "sorl.thumbnail",
     "hitcount",
     "star_ratings",
+    "debug_toolbar",
 ]
 
 MEDIA_URL = "/media/"
