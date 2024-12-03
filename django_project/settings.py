@@ -11,22 +11,35 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
 from pathlib import Path
+from environs import Env
+import os
 import sys
+
+env = Env()
+env.read_env()
+
+CSRF_TRUSTED_ORIGINS = ["https://csci258.cs.umt.edu"]
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+
+FORCE_SCRIPT_NAME = (
+    "/" + os.environ.get("SITE_NAME", "")
+    if os.environ.get("SITE_NAME", "") != ""
+    else ""
+)
 
 STATICFILES_DIRS = [BASE_DIR / "static"]
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "django-insecure-(@#(pxvl-al)_uxaeje1*b5x_%cki@9ea*^h90j9d=))x1j(s)"
+SECRET_KEY = os.environ.get("SECRET_KEY", "70FP2HcBpp_9lGu80cqx1OiNkYulwX88eoygSnWS7no")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = env.bool("DEBUG", default=False)
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["csci258.cs.umt.edu", "localhost", "127.0.0.1"]
 
 LOGGING = {
     "version": 1,
@@ -55,6 +68,7 @@ INSTALLED_APPS = [
     "django.contrib.contenttypes",
     "django.contrib.sessions",
     "django.contrib.messages",
+    "whitenoise.runserver_nostatic",
     "django.contrib.staticfiles",
     "crispy_forms",
     "crispy_bootstrap4",
@@ -71,16 +85,17 @@ MEDIA_ROOT = BASE_DIR / "media"
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
+    "whitenoise.middleware.WhiteNoiseMiddleware",
+    "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
+    "debug_toolbar.middleware.DebugToolbarMiddleware",
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-if DEBUG:
-    MIDDLEWARE += ["debug_toolbar.middleware.DebugToolbarMiddleware"]
 
 ROOT_URLCONF = "django_project.urls"
 
@@ -107,11 +122,24 @@ WSGI_APPLICATION = "django_project.wsgi.application"
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
 DATABASES = {
-    "default": {
+    # PostgreSQL database used in production
+    "prod": {
+        "ENGINE": "django.db.backends.postgresql",
+        "NAME": os.environ.get("POSTGRES_DB"),
+        "USER": os.environ.get("POSTGRES_USER"),
+        "PASSWORD": os.environ.get("POSTGRES_PASSWORD"),
+        "HOST": "postgres",
+        "PORT": "5432",
+    },
+    # local SQLite database used for development and testing
+    "local": {
         "ENGINE": "django.db.backends.sqlite3",
         "NAME": BASE_DIR / "db.sqlite3",
-    }
+    },
 }
+
+default_database = os.environ.get("DJANGO_DATABASE", "local")
+DATABASES["default"] = DATABASES[default_database]
 
 
 # Password validation
@@ -134,6 +162,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 INTERNAL_IPS = [
     "127.0.0.1",
+    "localhost",
 ]
 
 TESTING = "test" in sys.argv
@@ -163,7 +192,14 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
-STATIC_URL = "static/"
+# URL path to serve static files from; ex: '/group1/static/'
+STATIC_URL = FORCE_SCRIPT_NAME + "/static/"
+# project static files location
+STATICFILES_DIRS = [BASE_DIR / "static"]
+# collected static files location; includes other apps, like admin
+STATIC_ROOT = BASE_DIR / "staticfiles"
+# enable caching and compression when serving static files
+STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
@@ -175,5 +211,5 @@ CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap4"
 
 CRISPY_TEMPLATE_PACK = "bootstrap4"
 
-STAR_RATINGS_STAR_HEIGHT = 20  
-STAR_RATINGS_STAR_WIDTH = 20 
+STAR_RATINGS_STAR_HEIGHT = 20
+STAR_RATINGS_STAR_WIDTH = 20
